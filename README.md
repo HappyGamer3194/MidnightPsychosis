@@ -1,2 +1,4 @@
 # MidnightPsychosis
-description depscition cpepsoidfion decostsiaptohn descitpoin odopeofinn saifpsafeaihon iafoepesion aiosfeion asifeohspaion descrioption dfsiefposfeon
+Importing Problems Caused:
+- Had to removed built lighting.
+- Had to remove some models and imports.
