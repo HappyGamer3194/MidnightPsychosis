@@ -10,6 +10,7 @@ public class LookAt : MonoBehaviour
     public string input;
 
     bool lookingAt;
+    bool lookedAt = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,12 +24,18 @@ public class LookAt : MonoBehaviour
         if (trigger.GetComponent<Trigger>().entered == true && Input.GetButtonDown(input))
         {
             lookingAt = !lookingAt;
+            lookedAt = true;
         }
 
         if (lookingAt == false)
         {
-            GetComponent<MeshRenderer>().enabled = true;
             letterUI.SetActive(false);
+
+            if (lookedAt == true)
+            {
+                GetComponent<MeshRenderer>().enabled = true;
+                Destroy(gameObject);
+            }
         }
 
         if (lookingAt)
