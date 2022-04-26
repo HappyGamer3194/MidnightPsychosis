@@ -3,4 +3,4 @@
 - Had to remove built lighting.
 
 ### Download Individual Directories
-https://minhaskamal.github.io/DownGit/#/home
+- https://minhaskamal.github.io/DownGit/#/home
