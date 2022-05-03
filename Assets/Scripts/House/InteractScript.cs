@@ -7,14 +7,12 @@ public class InteractScript : MonoBehaviour
     public GameObject[] interactables;
     public int currentInteractable = 0;
 
-    public string input;
-
     // Update is called once per frame
     void Update()
     {
         if (currentInteractable != interactables.Length)
         {
-            if (interactables[currentInteractable].GetComponent<Trigger>().entered == true)
+            if (interactables[currentInteractable].GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
             {
                 currentInteractable += 1;
             }

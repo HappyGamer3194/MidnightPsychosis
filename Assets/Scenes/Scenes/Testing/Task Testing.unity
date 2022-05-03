@@ -937,6 +937,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c455c6023c3654fbcd10b0285d436b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactables: []
+  interactables:
+  - {fileID: 249910450}
+  - {fileID: 1252744548}
+  - {fileID: 1678927337}
+  - {fileID: 137034510}
   currentInteractable: 0
-  input: 
