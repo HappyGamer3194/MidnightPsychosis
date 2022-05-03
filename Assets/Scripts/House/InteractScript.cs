@@ -7,6 +7,8 @@ public class InteractScript : MonoBehaviour
     public GameObject[] interactables;
     public int currentInteractable = 0;
 
+    public GameObject watchNotifications;
+
     // Update is called once per frame
     void Update()
     {
@@ -14,6 +16,8 @@ public class InteractScript : MonoBehaviour
         {
             if (interactables[currentInteractable].GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
             {
+                watchNotifications.GetComponent<Notifications>().notiNum += 1;
+
                 currentInteractable += 1;
             }
         }
