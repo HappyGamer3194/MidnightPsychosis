@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class InteractScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject[] interactables;
+    public int currentInteractable = 0;
+
+    public GameObject watchNotifications;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentInteractable != interactables.Length)
+        {
+            if (interactables[currentInteractable].GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
+            {
+                watchNotifications.GetComponent<Notifications>().notiNum += 1;
+
+                currentInteractable += 1;
+            }
+        }
     }
 }
