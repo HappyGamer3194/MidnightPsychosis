@@ -341,6 +341,7 @@
 "Assets/Scripts/House/InteractScript.cs"
 "Assets/Scripts/InteractTextController.cs"
 "Assets/Scripts/Monster/MonsterAI2.cs"
+"Assets/Scripts/Player/AmbientSoundManager.cs"
 "Assets/Scripts/Player/cameraWobble.cs"
 "Assets/Scripts/Player/LookAt.cs"
 "Assets/Scripts/Player/MouseLook.cs"

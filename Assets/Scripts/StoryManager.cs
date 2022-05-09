@@ -10,11 +10,6 @@ public class StoryManager : MonoBehaviour
     public StoryAnimations[] animations;
     public int animationNum;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

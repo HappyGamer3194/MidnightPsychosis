@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Player\PostProcessingManager.cs" />
     <Compile Include="Assets\Scripts\UI\QuitGame.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Player\AmbientSoundManager.cs" />
     <Compile Include="Assets\Scripts\UI\StatController.cs" />
     <Compile Include="Assets\Scripts\StoryAnimations.cs" />
     <Compile Include="Assets\Scripts\InteractTextController.cs" />
