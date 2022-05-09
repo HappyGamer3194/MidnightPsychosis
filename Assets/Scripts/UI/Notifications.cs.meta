@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ad98717ccd52c1f4dada1c860b81b256
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - watch: {instanceID: 0}
+  - noti: {instanceID: 0}
+  - newNoti: {fileID: 8300000, guid: 51095790c9561a74bb6a9229c76d35d6, type: 3}
+  - NotiCompleted: {fileID: 8300000, guid: 85719d9466ae6154699c24b8020c4490, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
