@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class InteractScript : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class InteractScript : MonoBehaviour
             if (interactables[currentInteractable].GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
             {
                 watchNotifications.GetComponent<Notifications>().notiNum += 1;
+
+                interactables[currentInteractable].GetComponent<Animator>().SetBool("Activate", true);
 
                 currentInteractable += 1;
             }

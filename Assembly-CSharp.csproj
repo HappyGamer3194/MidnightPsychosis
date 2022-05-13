@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\UI\Subtitles.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
     <Compile Include="Assets\Scripts\House\InteractScript.cs" />
+    <Compile Include="Assets\Scripts\Player\AmbienceTrigger.cs" />
     <Compile Include="Assets\Scripts\Player\LookAt.cs" />
     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
     <Compile Include="Assets\Scripts\StoryManager.cs" />
