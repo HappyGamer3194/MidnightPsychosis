@@ -5,7 +5,7 @@ using UnityEngine.Animations;
 
 public class InteractScript : MonoBehaviour
 {
-    public GameObject[] interactables;
+    public Interactables[] interactables;
     public int currentInteractable = 0;
 
     public GameObject watchNotifications;
@@ -15,12 +15,14 @@ public class InteractScript : MonoBehaviour
     {
         if (currentInteractable != interactables.Length)
         {
-            if (interactables[currentInteractable].GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
+            if (interactables[currentInteractable].interactable.GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
             {
                 watchNotifications.GetComponent<Notifications>().notiNum += 1;
 
-                interactables[currentInteractable].GetComponent<Animator>().SetBool("Activate", true);
-
+                if (interactables[currentInteractable].animator != null)
+                {
+                    interactables[currentInteractable].animator.SetBool("Activate", true);
+                }
                 currentInteractable += 1;
             }
         }

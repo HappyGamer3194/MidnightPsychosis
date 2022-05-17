@@ -17,8 +17,6 @@ public class GameManager : MonoBehaviour
 
     public GameObject clock;
 
-    public GameObject sanity;
-
     public GameObject deathScreen;
 
     // Update is called once per frame
