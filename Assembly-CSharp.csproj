@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\UI\DevPanel.cs" />
     <Compile Include="Assets\Scripts\UI\InsanityScript.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\House\InteractablesClass.cs" />
     <Compile Include="Assets\Scripts\UI\Clock.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\UI\AnimationFadeEvent.cs" />
@@ -83,7 +84,8 @@
     <Compile Include="Assets\Scripts\StoryAnimations.cs" />
     <Compile Include="Assets\Scripts\InteractTextController.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterAI2.cs" />
-    <Compile Include="Assets\Scripts\House\InteractablesClass.cs" />
+    <Compile Include="Assets\Scripts\SystemFormatting\ConditionalHidePropertyDrawer.cs" />
+    <Compile Include="Assets\Scripts\SystemFormatting\ConditionalHideAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />

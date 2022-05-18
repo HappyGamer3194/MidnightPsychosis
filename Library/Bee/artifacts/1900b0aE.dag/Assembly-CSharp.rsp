@@ -352,6 +352,8 @@
 "Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/StoryAnimations.cs"
 "Assets/Scripts/StoryManager.cs"
+"Assets/Scripts/SystemFormatting/ConditionalHideAttribute.cs"
+"Assets/Scripts/SystemFormatting/ConditionalHidePropertyDrawer.cs"
 "Assets/Scripts/Trigger.cs"
 "Assets/Scripts/UI/AnimationFadeEvent.cs"
 "Assets/Scripts/UI/Clock.cs"
