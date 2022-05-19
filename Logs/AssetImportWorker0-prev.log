@@ -1,0 +1,2233 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.15f1 (e767a7370072) revision 15165351'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 8079 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59836
+Successfully changed project path to: C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main
+C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 113.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.15f1 (e767a7370072)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     4039 MB
+    Driver:   26.20.100.7926
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002898 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 113.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009437 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Aryan Puthran\Unity Games\Current\MidnightPsychosis-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Aryan Puthran\Unity Games\Current\MidnightPsychosis-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.501 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1274ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4949.
+Total: 3.073500 ms (FindLiveObjects: 0.341600 ms CreateObjectMapping: 0.186100 ms MarkObjects: 2.390900 ms  DeleteObjects: 0.153700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Monster.obj
+  artifactKey: Guid(1893916858bcac14a9ffb66bdf7dbdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monster.obj using Guid(1893916858bcac14a9ffb66bdf7dbdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c27e8896d4574129b3f58bd913a133f') in 1.093632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Prefabs/SoundTrigger.prefab
+  artifactKey: Guid(3ffc34a85a40a474e82c87b66f1a9c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SoundTrigger.prefab using Guid(3ffc34a85a40a474e82c87b66f1a9c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f8faf124076f3b5961db18803fbbb1') in 0.027803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/tree2.fbx
+  artifactKey: Guid(d001dcc9e6d330946b3f470f03dde328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree2.fbx using Guid(d001dcc9e6d330946b3f470f03dde328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bfc1e46f0bc287cf9abcb167b792f1') in 0.346443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefabs/HouseModel.fbx
+  artifactKey: Guid(1931ae211a0bd884b9cb7e7152dffe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HouseModel.fbx using Guid(1931ae211a0bd884b9cb7e7152dffe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e182d10af15a3c2afa4c8111ee7c809e') in 0.416236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/Hous
+  artifactKey: Guid(0d601638e79a7e94c83e69c825646e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hous using Guid(0d601638e79a7e94c83e69c825646e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76d1ae012ed6d811a3d435de4ff809') in 0.010327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Prefabs/Door.prefab
+  artifactKey: Guid(95537c05e7aa4d348bb421da5d61459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.prefab using Guid(95537c05e7aa4d348bb421da5d61459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8327dcb01fada54411e695f624b9afb4') in 0.310935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Prefabs/Post-process Volume.prefab
+  artifactKey: Guid(1546e257a63253d4fa277715c66f255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Post-process Volume.prefab using Guid(1546e257a63253d4fa277715c66f255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09446233e52e6e94fbb0131595800dab') in 0.018096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(6083bf92584df094096478dc5888933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(6083bf92584df094096478dc5888933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a3580205be37db57de8ceade5c005e') in 0.035831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Prefabs/PauseMenu.prefab
+  artifactKey: Guid(5bdf2f92732581549ad0f0bb73782d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseMenu.prefab using Guid(5bdf2f92732581549ad0f0bb73782d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ed6c4b7ce418f12f0571002b7ea4ed') in 0.038171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefabs/SmartWatch.prefab
+  artifactKey: Guid(69b37e34d345b74419819d8365e31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SmartWatch.prefab using Guid(69b37e34d345b74419819d8365e31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e4057e7827e13fd9f5790e5f912ea') in 0.010478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030873 seconds.
+  path: Assets/Prefabs/Hous/Candy
+  artifactKey: Guid(a5504d2a151e07b4782ad3613afa3e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hous/Candy using Guid(a5504d2a151e07b4782ad3613afa3e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32da01acb40c77d3cb8ce78cc147119') in 0.009474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.930156 seconds.
+  path: Assets/Prefabs/House
+  artifactKey: Guid(b81e38b7c8ed76449992bea8a4927e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/House using Guid(b81e38b7c8ed76449992bea8a4927e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8afbe2ee0a03b48ef8ba6d4715e94a6') in 0.013618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035883 seconds.
+  path: Assets/Prefabs/House/Door.obj
+  artifactKey: Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/House/Door.obj using Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c09933a1ee32060d97ebc2c6d4de4d') in 0.031700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.205569 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/base_material.mat
+  artifactKey: Guid(366679cf3713065428e131e78f9593ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/base_material.mat using Guid(366679cf3713065428e131e78f9593ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbbe701fce2681d58690c44ca71d7db') in 0.023999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/base_material 2.mat
+  artifactKey: Guid(e2ff4118305d11c41bb216685380c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/base_material 2.mat using Guid(e2ff4118305d11c41bb216685380c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a19a7b2879f78c314eb03f25240f69') in 0.014693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044739 seconds.
+  path: Assets/UI/Fonts/bloodcrow SDF.asset
+  artifactKey: Guid(5dae0c74598593f48b39b26f872b8630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Fonts/bloodcrow SDF.asset using Guid(5dae0c74598593f48b39b26f872b8630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af8a890edb6db7b449e54ca8f0cd256') in 0.172009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_4.mat
+  artifactKey: Guid(b5ded758bc8effe4a8fca6adf3012a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_4.mat using Guid(b5ded758bc8effe4a8fca6adf3012a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6a5163196439145ac897e7bf94f4ff') in 0.021347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/Fonts/bloodcrow SDF.asset
+  artifactKey: Guid(8a0ee9e7d64119147a0fd0daec61e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fonts/bloodcrow SDF.asset using Guid(8a0ee9e7d64119147a0fd0daec61e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ace8ffb56379e2d26b7c9a7f511057') in 0.105952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/UI/Fonts/VCR_OSD_MONO_1.001.ttf
+  artifactKey: Guid(03f45280ddbc7404d8fcf9853e989ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Fonts/VCR_OSD_MONO_1.001.ttf using Guid(03f45280ddbc7404d8fcf9853e989ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73abb4f2c303d3f52bc0a9f2157ea51a') in 0.050487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1.mat
+  artifactKey: Guid(a68a0356b34100043aecefdf9eeeb040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1.mat using Guid(a68a0356b34100043aecefdf9eeeb040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a153416069d9ae010b94788b050976ee') in 0.484952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Materials/Colors/DarkGray.mat
+  artifactKey: Guid(826269b01d5c3d7498b2337422f62898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colors/DarkGray.mat using Guid(826269b01d5c3d7498b2337422f62898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f2720a7740ab2dee09cc4525877e50') in 0.024449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_1.mat
+  artifactKey: Guid(3ce1607272ebf6f409222542a2548d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_1.mat using Guid(3ce1607272ebf6f409222542a2548d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e4c58a285356c54851029c8eac9571') in 0.022079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Materials/Colors/DarkRed.mat
+  artifactKey: Guid(b85c2a9ed5ada964d92163e3d297735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colors/DarkRed.mat using Guid(b85c2a9ed5ada964d92163e3d297735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0e4d06c07fc7772f7220dcc812e801') in 0.028357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_2.mat
+  artifactKey: Guid(175c48b70a024c3478904cbd8e8be5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_2.mat using Guid(175c48b70a024c3478904cbd8e8be5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913fe15bbd8f41efff5130345e15b9c7') in 0.021349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/floor.mat
+  artifactKey: Guid(4b0cad466fb77ed4981710d807cf7ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/floor.mat using Guid(4b0cad466fb77ed4981710d807cf7ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc4d408cc8aa229bc16f7f9104b9acc') in 0.020429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Materials/Skybox/Stylized Sky/Day3.mat
+  artifactKey: Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/Stylized Sky/Day3.mat using Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1016554da331bf6d92316ffeb8ae446c') in 0.017897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_3.mat
+  artifactKey: Guid(1a44110be72ce9e4bbf38a866d859da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_3.mat using Guid(1a44110be72ce9e4bbf38a866d859da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceccb7efde1e37f0e5da363bad3c1573') in 0.019856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.580989 seconds.
+  path: Assets/Prefabs/House/Door.obj
+  artifactKey: Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/House/Door.obj using Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec166236e5e7e1d482fb698efa468432') in 0.055351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.667633 seconds.
+  path: Assets/Materials/Environment/Textures/HardwoodFloors.mat
+  artifactKey: Guid(a09c1a48e64f4aa42a1154155eea3d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/HardwoodFloors.mat using Guid(a09c1a48e64f4aa42a1154155eea3d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4988f61f9e416eee6687f4deeb8761b4') in 0.174910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Materials/Environment/Prefabs/Wood.mat
+  artifactKey: Guid(b245dde7c0809c04c8c99405db8b22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Prefabs/Wood.mat using Guid(b245dde7c0809c04c8c99405db8b22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3dfaaf15afe628dbaa3ed297d58051') in 0.022557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(24c7688d3def79845b003ba042cd0bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(24c7688d3def79845b003ba042cd0bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5b4e6802eb8b5fae07dcb33f6e28ae') in 0.020916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_3.mat
+  artifactKey: Guid(9a21eb46837654f4f84d01d31001741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_3.mat using Guid(9a21eb46837654f4f84d01d31001741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58158cad38b4295f73b04dc71ceaf3') in 0.020389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_1.mat
+  artifactKey: Guid(888daeabd7af8694783c9a32a9ca19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_1.mat using Guid(888daeabd7af8694783c9a32a9ca19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fce692f61305ec9a893a6592867a7e0') in 0.021627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1.mat
+  artifactKey: Guid(0bf3fe356c6d98f49b2953168e229fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1.mat using Guid(0bf3fe356c6d98f49b2953168e229fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054eadcebf2d89ac7dfe2b4afd843041') in 0.049750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Materials/Colors/Wood.mat
+  artifactKey: Guid(f80ca6200ca42cc45956a4c585da5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colors/Wood.mat using Guid(f80ca6200ca42cc45956a4c585da5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43b8aa6e70606df72e5fa328f676343') in 0.441875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_2.mat
+  artifactKey: Guid(9ef60bdc624a1594e89bdc4d48adc8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_2.mat using Guid(9ef60bdc624a1594e89bdc4d48adc8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91496449dc32755e57597d2579587ec7') in 0.020313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001358 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_4.mat
+  artifactKey: Guid(6a76e7af6b1ec1147a48ad88ee029051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_4.mat using Guid(6a76e7af6b1ec1147a48ad88ee029051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd027b2cccf22126558a1221cfd7376') in 0.020745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/Colors/White.mat
+  artifactKey: Guid(352c97b89fb57c14eae6def1c85a5fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colors/White.mat using Guid(352c97b89fb57c14eae6def1c85a5fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982d35f0ef0e73bb2c9ff8b6187a73ba') in 0.021076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.571194 seconds.
+  path: Assets/Prefabs/House/Door.obj
+  artifactKey: Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/House/Door.obj using Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f5e1f2a59532cb64fab43e35999fa6') in 0.058261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.973051 seconds.
+  path: Assets/Materials/Skybox/Stylized Sky/Night3.mat
+  artifactKey: Guid(135a7036ca1a07b4e9e162d80e6b6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/Stylized Sky/Night3.mat using Guid(135a7036ca1a07b4e9e162d80e6b6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639af89008f795648aa4c414e3b9d9c9') in 0.017976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Tiles 1/Tiles 1.mat
+  artifactKey: Guid(51f0a4430d558874dbb3630cc9c3988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Tiles 1/Tiles 1.mat using Guid(51f0a4430d558874dbb3630cc9c3988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1614a341021db32591917ad4c0df3e') in 0.043901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/UI/DevTex/Materials/Prefab_purple 1.mat
+  artifactKey: Guid(065c5adaeac19a240a186bfd436b1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Materials/Prefab_purple 1.mat using Guid(065c5adaeac19a240a186bfd436b1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3021055bdfce13abbd9d3cb83057dd8') in 0.040176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/UI/DevTex/Materials/Prefab_red 1.mat
+  artifactKey: Guid(878544c9f0b68824b8eb630e5a710864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Materials/Prefab_red 1.mat using Guid(878544c9f0b68824b8eb630e5a710864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f73b57bbf67bc71a9aed948842ada8') in 0.026772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/Skybox/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e587b2d9f39b4a8da249a6a8f56a44') in 0.150081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Rock 1/Rock 1.mat
+  artifactKey: Guid(7f1bd0a162a00a54e91d39dea079ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Rock 1/Rock 1.mat using Guid(7f1bd0a162a00a54e91d39dea079ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc9342487533d8e933dac953d38b34f') in 0.047984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Materials/Colors/Trigger.mat
+  artifactKey: Guid(e6190ba7461ad34409d7d5bd876a52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colors/Trigger.mat using Guid(e6190ba7461ad34409d7d5bd876a52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb3853985f972e80179e53c2bb1b258') in 0.020913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Stones 1/Stones 1.mat
+  artifactKey: Guid(3a415bc4fe2efbf40a708d88a0caaaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Stones 1/Stones 1.mat using Guid(3a415bc4fe2efbf40a708d88a0caaaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13e0186d2cf299add25587c0873695e') in 0.047686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.201637 seconds.
+  path: Assets/Prefabs/House/Door.obj
+  artifactKey: Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/House/Door.obj using Guid(6c941345b8e0409458972ee42d3acc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8caec1429db54b144bb7e7446cd2e9') in 0.052582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.008963 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Demo
+  artifactKey: Guid(3e6b21b9dd7125c43bacd052212b3024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Demo using Guid(3e6b21b9dd7125c43bacd052212b3024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdde986d94a63482878bfecb9b2e3d6') in 0.013251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.688230 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs
+  artifactKey: Guid(0ca55815669e4364695ce5d716f50051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs using Guid(0ca55815669e4364695ce5d716f50051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f412de188d0511d0d27789fae156e596') in 0.010111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.465612 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/bed_1.FBX
+  artifactKey: Guid(a66f756b6810535438053fc6a961a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/bed_1.FBX using Guid(a66f756b6810535438053fc6a961a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201b26a7ca247225270d06fcb573dd4c') in 0.067121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/cabinet_3.FBX
+  artifactKey: Guid(e625800ca6c186b46bf906733b1ed7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/cabinet_3.FBX using Guid(e625800ca6c186b46bf906733b1ed7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5796926962334c76e08b6a47fde22') in 0.062792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/chair_3.FBX
+  artifactKey: Guid(96677e1b867387e4bb7924c004052745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/chair_3.FBX using Guid(96677e1b867387e4bb7924c004052745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e41a09beb3d4b35e661945e2b79133') in 0.068965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_1.FBX
+  artifactKey: Guid(4529ae99f5841454fbf19e4790d72ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_1.FBX using Guid(4529ae99f5841454fbf19e4790d72ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c5673ecfdeb9c0a749bb000592a3a0') in 0.074155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/chair_2.FBX
+  artifactKey: Guid(09ab09c4c72d1bc42b19fdae40567808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/chair_2.FBX using Guid(09ab09c4c72d1bc42b19fdae40567808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7cb5f03646e15f1ccd8031e42714ff') in 0.053518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/drying_with_towel.FBX
+  artifactKey: Guid(8840620f7a7d1394f83c08d238fd9e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/drying_with_towel.FBX using Guid(8840620f7a7d1394f83c08d238fd9e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2691bc2ceac975c384cb707f2c82ea3') in 0.050972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_table_1.FBX
+  artifactKey: Guid(d52b48341389f7146849499fed53440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_table_1.FBX using Guid(d52b48341389f7146849499fed53440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bad6299eb9cbfc7be221fa5f5252c2') in 0.046989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/coffee_table_4.FBX
+  artifactKey: Guid(1b493fd098374a247ad9d467563cb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/coffee_table_4.FBX using Guid(1b493fd098374a247ad9d467563cb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192064ca3b5471d2c3670870d26fb07b') in 0.034027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_2.FBX
+  artifactKey: Guid(708905db3fc5ad84993c9651cd501104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_2.FBX using Guid(708905db3fc5ad84993c9651cd501104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52381c10a83c9bc1589dfb60b45d75e8') in 0.052317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/brush.FBX
+  artifactKey: Guid(f6d2bef1bd916964595eabb8b09a0e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/brush.FBX using Guid(f6d2bef1bd916964595eabb8b09a0e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f43b98a13bdefaaccb48a18c60b411') in 0.059446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/chair_4.FBX
+  artifactKey: Guid(0cd7a7c221fea2f449a3fe6027a20675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/chair_4.FBX using Guid(0cd7a7c221fea2f449a3fe6027a20675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa784d4426281efb46cf62d5f713ffa') in 0.080804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/coffee_table_2.FBX
+  artifactKey: Guid(4dc45c21ff53cad4e9605d32a38a5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/coffee_table_2.FBX using Guid(4dc45c21ff53cad4e9605d32a38a5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1ac56bd1271e6ce0369c644ed81f06') in 0.034837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/bed_3.FBX
+  artifactKey: Guid(133c508540525d34f864dc543e153a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/bed_3.FBX using Guid(133c508540525d34f864dc543e153a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8829d836e22d6aaad8a93a8199ae1756') in 0.068449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_chair_1.FBX
+  artifactKey: Guid(aab68a45c7d5bcb428bbbfbda224b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_chair_1.FBX using Guid(aab68a45c7d5bcb428bbbfbda224b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3453351d35223ea8890873fbdda004c4') in 0.047747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/bed_2.FBX
+  artifactKey: Guid(15427fb62be34b141aacac4503ec8e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/bed_2.FBX using Guid(15427fb62be34b141aacac4503ec8e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26692e45a212520d0fa41b8bc8c50116') in 0.095750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/cabinet_1.FBX
+  artifactKey: Guid(581f5b9b32333544dbe7767c89b4f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/cabinet_1.FBX using Guid(581f5b9b32333544dbe7767c89b4f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40304db12a58f2d164e6a5c66724c84b') in 0.081337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/cabinet_2.FBX
+  artifactKey: Guid(821d897858fdee444811c1ee3d5ba830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/cabinet_2.FBX using Guid(821d897858fdee444811c1ee3d5ba830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292040a7efa01009f8a9566386c6dc7b') in 0.064123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_chair_2.FBX
+  artifactKey: Guid(d0f986f95aaf0db4a90ebaf27e21d7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_chair_2.FBX using Guid(d0f986f95aaf0db4a90ebaf27e21d7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87fe0b3f81b519bcc044f026cad8c9d') in 0.058724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/chair_1.FBX
+  artifactKey: Guid(86acd830387febe47935c6d30bc6fdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/chair_1.FBX using Guid(86acd830387febe47935c6d30bc6fdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d80a7d95917e4dba4c1f545f378ad9') in 0.060163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/flasket.FBX
+  artifactKey: Guid(1e9483dbe68479d4889166e292e99aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/flasket.FBX using Guid(1e9483dbe68479d4889166e292e99aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904a6648bee1727e9a585347ec7dbcd8') in 0.029108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_table_2.FBX
+  artifactKey: Guid(e0853bea36301e940b5337e376f64f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_table_2.FBX using Guid(e0853bea36301e940b5337e376f64f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb29cc1b677229a15b9143f6b401528') in 0.051298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/corner_sofa.FBX
+  artifactKey: Guid(6b9bc052bb2fcf447862462e34741ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/corner_sofa.FBX using Guid(6b9bc052bb2fcf447862462e34741ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652e57341a458b9466864984423bdae5') in 0.149442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_3.FBX
+  artifactKey: Guid(3f05170cab001044eb4dd4fa37028185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_3.FBX using Guid(3f05170cab001044eb4dd4fa37028185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3355a544c6b2add7f84ad8012a4dec96') in 0.058840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_corner_INV.FBX
+  artifactKey: Guid(1585cbd1e4512a245b1657178702397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_corner_INV.FBX using Guid(1585cbd1e4512a245b1657178702397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea90e258ac19b916ac09c6ea60c4c7b') in 0.061689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_corner.FBX
+  artifactKey: Guid(661cb1c9ddb722043a13fb3fcfe0ebc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/kitchen_shelf_corner.FBX using Guid(661cb1c9ddb722043a13fb3fcfe0ebc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287d40cd9f72cd492b213223f09d5c01') in 0.056699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/coffee_table_3.FBX
+  artifactKey: Guid(d079baae1a2aaaf499bfc49bdd7536f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/coffee_table_3.FBX using Guid(d079baae1a2aaaf499bfc49bdd7536f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2839be7248602dbc4683d80cac887d') in 0.063719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/coffee_table_1.FBX
+  artifactKey: Guid(7cd4ce41d004a7c4f9fda3a3ae2e9bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/coffee_table_1.FBX using Guid(7cd4ce41d004a7c4f9fda3a3ae2e9bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb7c25f8e34265cfb6efa44ee54e84b') in 0.049826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.404089 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials
+  artifactKey: Guid(55714643bea876344a15a8af689d9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials using Guid(55714643bea876344a15a8af689d9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac562cdd0472b423dfd4ff701d35fd34') in 0.010373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.370300 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/New Material.mat
+  artifactKey: Guid(1495b4bb81a87c04fab6b460719d5312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/New Material.mat using Guid(1495b4bb81a87c04fab6b460719d5312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa83cca27cacce626ed0562850844f49') in 0.020694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.665276 seconds.
+  path: Assets/Sprites/MainMenu/BackArrow.png
+  artifactKey: Guid(5da79d5d61bc3c44ca6809b69712c5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainMenu/BackArrow.png using Guid(5da79d5d61bc3c44ca6809b69712c5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e34ecb5b8cec4b67cdae23de80d92a') in 0.050619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/Environment/Textures/Wood 1/bark-1517215_960_720 1.jpg
+  artifactKey: Guid(7e98e2051c19e124782b44b52ffca173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Wood 1/bark-1517215_960_720 1.jpg using Guid(7e98e2051c19e124782b44b52ffca173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f8b3ff78136c95991d8f5ac86d21f8') in 0.022325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/UI/Sprites/MainMenu/BackArrow.png
+  artifactKey: Guid(788d9630113048940a48ef2f2a396f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Sprites/MainMenu/BackArrow.png using Guid(788d9630113048940a48ef2f2a396f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc04910e1186b5c5e4a353f04ea7ae9') in 0.019430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Sprites/Main/Caution.png
+  artifactKey: Guid(b24dab18f3afd5247987b89efee2049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main/Caution.png using Guid(b24dab18f3afd5247987b89efee2049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f31b8e9a1b9866d01be431ced56f1d8') in 0.026060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/UI/Sprites/MainMenu/BloodSplatter.png
+  artifactKey: Guid(8241d650742cd604eacaf1f004231803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Sprites/MainMenu/BloodSplatter.png using Guid(8241d650742cd604eacaf1f004231803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e869a23f57030fe179562c8cc05bd4') in 0.027519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Sprites/Managers/brain_filled.png
+  artifactKey: Guid(a9657ea1cf4fe6645ba7b6683cda1a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Managers/brain_filled.png using Guid(a9657ea1cf4fe6645ba7b6683cda1a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11c1f1a7ef3a5333f6073a750bccc0b') in 0.038636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Sprites/MainMenu/BloodSplatter.png
+  artifactKey: Guid(4b2f72fda44c0be4e85746a78e853657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainMenu/BloodSplatter.png using Guid(4b2f72fda44c0be4e85746a78e853657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dae5dc0ee492ca822426324ca38f34') in 0.019732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Materials/Environment/Textures/Wood 1/bark-1517215_960_720.jpg
+  artifactKey: Guid(3db261a53c33b64438de6f597bc2c4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Wood 1/bark-1517215_960_720.jpg using Guid(3db261a53c33b64438de6f597bc2c4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ac9522736b51fcec0a3057a113158c') in 0.020504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Sprites/Main/Bed.png
+  artifactKey: Guid(fd17969ff577a9a4dbb096a1be77288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main/Bed.png using Guid(fd17969ff577a9a4dbb096a1be77288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d88d66868d2e93885254961e9e9fb3') in 0.021476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Sprites/Managers/brain.png
+  artifactKey: Guid(49737fd1d65f89f49b257d796473217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Managers/brain.png using Guid(49737fd1d65f89f49b257d796473217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4b6fc40854e496eadb92602ea0bf4b') in 0.029058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/cloth_3.jpg
+  artifactKey: Guid(4acc9fdd66048cb4e96d08ca021d5f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/cloth_3.jpg using Guid(4acc9fdd66048cb4e96d08ca021d5f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb310c47130aed5f85fad91f0ca76133') in 0.016490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/cloth_1.jpg
+  artifactKey: Guid(db4265b11df6af1438db306cd16c60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/cloth_1.jpg using Guid(db4265b11df6af1438db306cd16c60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e93a24f89d338242bf5959df5c3f6f9') in 0.020047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/cloth_2.jpg
+  artifactKey: Guid(06d346647450a0d4688aa76e20b03d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/cloth_2.jpg using Guid(06d346647450a0d4688aa76e20b03d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119f23b79e17f1c780ed4e96b4d34ece') in 0.016167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.423298 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/cloth_4.jpg
+  artifactKey: Guid(8742cf5389ec13846ae404783db50532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/cloth_4.jpg using Guid(8742cf5389ec13846ae404783db50532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32238b75156bea3651cb5e0181ef2571') in 0.012943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/cloth_5.jpg
+  artifactKey: Guid(b8daff8b7c3733a4c89e2dc3cbd49222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/cloth_5.jpg using Guid(b8daff8b7c3733a4c89e2dc3cbd49222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deddddc4a548db8fadb0e152d93d0ee8') in 0.020470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_Camera.png
+  artifactKey: Guid(42270af1db737a843878f7943b58ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_Camera.png using Guid(42270af1db737a843878f7943b58ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e15209e418b1fa66102a2bda67ffad0') in 0.027088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028256 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_Handler.png
+  artifactKey: Guid(7530fc3904900eb4caf869c680d52712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_Handler.png using Guid(7530fc3904900eb4caf869c680d52712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de4f65d7d51636b11cdce87bdb67bbd') in 0.015433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_Script.png
+  artifactKey: Guid(15daba562a4154744819cbdb0777b0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_Script.png using Guid(15daba562a4154744819cbdb0777b0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dcf44b3c8aa3f7d9f71c121bbf691b') in 0.021397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Collide_Trigger.png
+  artifactKey: Guid(6c2967b2095120149b67ce0113688b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Collide_Trigger.png using Guid(6c2967b2095120149b67ce0113688b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84d83d08e7d3c74055a3d745a59ce80') in 0.034224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-displacement.tif
+  artifactKey: Guid(8a9fa17708db93b42909ae69b2c6c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-displacement.tif using Guid(8a9fa17708db93b42909ae69b2c6c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297854755e612cc8a5f627810e3acb16') in 0.342534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/floor.jpg
+  artifactKey: Guid(5b23a0b3534da9b44975ad134ad8033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/floor.jpg using Guid(5b23a0b3534da9b44975ad134ad8033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c085ed7083e29c682bb439f932c960') in 0.015443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(ea2fb379f0f638942bef422dbc3eb6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(ea2fb379f0f638942bef422dbc3eb6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492fa0d48acb4f85fef74cd0a5cda53a') in 0.023224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_Trigger.png
+  artifactKey: Guid(13f64aa69f879534db70bfa4873f443a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_Trigger.png using Guid(13f64aa69f879534db70bfa4873f443a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b734249b1f54a91cadc1a282941dcb04') in 0.018738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-diffuse.png
+  artifactKey: Guid(4aedb388ca159f84bb2dc92b9b5a7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-diffuse.png using Guid(4aedb388ca159f84bb2dc92b9b5a7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1da41f9c2db3fb7ee33e3c801ee6719') in 0.030535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-texture.png
+  artifactKey: Guid(0cd977654fbead34f8a2113d9f708c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-texture.png using Guid(0cd977654fbead34f8a2113d9f708c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38899f3482f8e6bdc74f1bf6e5b36357') in 0.021045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-ao.tif
+  artifactKey: Guid(4da6fb00f99995a4ba5e8b206371d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-ao.tif using Guid(4da6fb00f99995a4ba5e8b206371d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a94a7209461af19c4f1d7f9337d15e2') in 0.022570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_World.png
+  artifactKey: Guid(3e7b04ec209c4284f8f342d5fa136ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_World.png using Guid(3e7b04ec209c4284f8f342d5fa136ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b033d9e1470b6047d05023ca4005db') in 0.029936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-normal.png
+  artifactKey: Guid(7d3e6392d196a7a49aa5a960067151b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-normal.png using Guid(7d3e6392d196a7a49aa5a960067151b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b95b5f96422bbb68bbf5e7c9a7b916a') in 0.021630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_Scene.png
+  artifactKey: Guid(92a97221a2de7714f8df7b85fb71c559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_Scene.png using Guid(92a97221a2de7714f8df7b85fb71c559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7bd9b0bc99a74cdaf85e43dfced10a') in 0.019808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/UI/DevTex/Textures/Collide_Player.png
+  artifactKey: Guid(5395055a5057f9f45a5da49471170d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Collide_Player.png using Guid(5395055a5057f9f45a5da49471170d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304a276d6ebfeadc70f441aebca9b894') in 0.020818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-specular.png
+  artifactKey: Guid(25d00a34a643039469e4831bc5d9d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Dirt 1/Dirt 1-specular.png using Guid(25d00a34a643039469e4831bc5d9d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c85eca987709c3a7d75369c2d4d43a') in 0.021207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.047255 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/floor_nm.jpg
+  artifactKey: Guid(e062115192ae44040b73f45112562490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/floor_nm.jpg using Guid(e062115192ae44040b73f45112562490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523357110d7e827b54433ec6211f0c1') in 0.032258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/wood_2.jpg
+  artifactKey: Guid(2d3f16073f817e74ca26282b96b3593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/wood_2.jpg using Guid(2d3f16073f817e74ca26282b96b3593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb76d0b18d7175010fb15f59dfa7bdd') in 0.018417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/wood_3.JPG
+  artifactKey: Guid(b85f57159dd296e40941510cbde61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/wood_3.JPG using Guid(b85f57159dd296e40941510cbde61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7469c43ef99e4c3af97fc75292b1b149') in 0.020386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Textures/wood_1.jpg
+  artifactKey: Guid(e985334e4a9d3ab448b77393b5c06265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Textures/wood_1.jpg using Guid(e985334e4a9d3ab448b77393b5c06265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef46e78719eac6a192d03c5319eed10') in 0.018388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.328804 seconds.
+  path: Assets/Sprites/Fonts/lunchtype22.regular.ttf
+  artifactKey: Guid(672e6ccf52e1eed428b467bb8efea25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fonts/lunchtype22.regular.ttf using Guid(672e6ccf52e1eed428b467bb8efea25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacccc2f612de8f3c57d1dd08e0c6f36') in 0.228832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068888 seconds.
+  path: Assets/Sprites/Fonts/lunchtype22.medium.ttf
+  artifactKey: Guid(446e3b95fb5754149b0be4165af5d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fonts/lunchtype22.medium.ttf using Guid(446e3b95fb5754149b0be4165af5d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31958504b80a86a99d08c7b3bcd1aa02') in 0.027810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/Fonts/bloodcrow (main menu title).ttf
+  artifactKey: Guid(e3496f0c000b3d740a33b4b7315932eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fonts/bloodcrow (main menu title).ttf using Guid(e3496f0c000b3d740a33b4b7315932eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963a481d777d6d57be7929d0e343d5ae') in 0.026302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062209 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(1eb2cb141605f6b438838f75e7b30b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(1eb2cb141605f6b438838f75e7b30b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a927a8b9ea4c79f12cc019e7ba6202') in 0.031495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479497 seconds.
+  path: Assets/UI/Fonts/bloodcrow (main menu title).ttf
+  artifactKey: Guid(00aa50cb0fe08354999cc80a7181af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Fonts/bloodcrow (main menu title).ttf using Guid(00aa50cb0fe08354999cc80a7181af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6a75f7b51c378b2505b6a88778e862') in 0.025225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/UI/Fonts/lunchtype22.light.ttf
+  artifactKey: Guid(7d91065829ab6554d80b75370a5166d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Fonts/lunchtype22.light.ttf using Guid(7d91065829ab6554d80b75370a5166d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d8481732c04218447410737f2c370') in 0.025653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.004416 seconds.
+  path: Assets/Sprites/Main/Water.png
+  artifactKey: Guid(5e5a0018318372540899397386038e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main/Water.png using Guid(5e5a0018318372540899397386038e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc104d7de98c2a91c767c5ba873ea7ba') in 0.460921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Materials/Environment/Textures/Wood 1/WoodTexture.jpg
+  artifactKey: Guid(2b8d0c8b3003cdb449cb645d77c2d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Wood 1/WoodTexture.jpg using Guid(2b8d0c8b3003cdb449cb645d77c2d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3bd66fbac6ec761dd80b2f67b44b07') in 0.028838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/UI/DevTex/Textures/Zone_Hurt.png
+  artifactKey: Guid(53c51ae12ae19e64c92290797e726019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Zone_Hurt.png using Guid(53c51ae12ae19e64c92290797e726019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97929478fec96af07894d05067dfc5b3') in 0.019544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-specular.png
+  artifactKey: Guid(b154899baace38348a218d51dd8ec2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-specular.png using Guid(b154899baace38348a218d51dd8ec2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cafb27827a1602cf1ceaa2d0455ce7') in 0.021437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/UI/DevTex/Textures/Zone_spawn.png
+  artifactKey: Guid(9ad7095b574a9054c96efa3ac0e3fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Zone_spawn.png using Guid(9ad7095b574a9054c96efa3ac0e3fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5ad423b02c687eaa37dbcf26a43ad9') in 0.021754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-diffuse.png
+  artifactKey: Guid(89e91c5022e938549880bd01aab858db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-diffuse.png using Guid(89e91c5022e938549880bd01aab858db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc6057fe0d1eef1e0ae729f5306f95d') in 0.022102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-displacement.tif
+  artifactKey: Guid(42022fdc6284ab94b83d87ba24828ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-displacement.tif using Guid(42022fdc6284ab94b83d87ba24828ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a528c16738cbe32c74b545df8ecd123') in 0.020766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-texture.png
+  artifactKey: Guid(2b5a612f2c0d86947931ddd8a47a925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-texture.png using Guid(2b5a612f2c0d86947931ddd8a47a925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dcd3fecf68a7d68b5c5dc369737ba3') in 0.020793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-ao.tif
+  artifactKey: Guid(28c880396f606a44caa5686bedfd5382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-ao.tif using Guid(28c880396f606a44caa5686bedfd5382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7188621b31f37437320fb2779120a5c') in 0.020022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-normal.png
+  artifactKey: Guid(02f7cc49fdc0caf43b0c339bbf7053a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Wood 1/Wood 1-normal.png using Guid(02f7cc49fdc0caf43b0c339bbf7053a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005b622a9be3bdd35a522b5b8130d19f') in 0.022313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.078449 seconds.
+  path: Assets/UI/Fonts/lunchtype22.regular.ttf
+  artifactKey: Guid(52e24474c7d2dbe4987b436161ba326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Fonts/lunchtype22.regular.ttf using Guid(52e24474c7d2dbe4987b436161ba326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c591880dffe9b55515034ef363b3fd') in 0.037406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-ao.tif
+  artifactKey: Guid(98a8c753c4a94cb48857c1525af4eea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-ao.tif using Guid(98a8c753c4a94cb48857c1525af4eea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58512f62e3a61559361b10510d75e2d9') in 0.019544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093686 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-diffuse.png
+  artifactKey: Guid(3a001d935232b49459f643de31685262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-diffuse.png using Guid(3a001d935232b49459f643de31685262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a071c63cd82f217a3c46c8e950d8fd') in 0.028445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-ao.tif
+  artifactKey: Guid(d872bedff9c018f4aac56b5e523f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-ao.tif using Guid(d872bedff9c018f4aac56b5e523f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a847236c0879364e1da4a9bf8c66d243') in 0.032901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-specular.png
+  artifactKey: Guid(af3b3fb8ebd4a7a4ea96e86f0baa9786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-specular.png using Guid(af3b3fb8ebd4a7a4ea96e86f0baa9786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37f129d20fd3402626c4bb40c6d952f') in 0.022563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-texture.png
+  artifactKey: Guid(053e4e9f7ce8ba047839c600f061aa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-texture.png using Guid(053e4e9f7ce8ba047839c600f061aa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df381a97d20f7aba50a7265d3d3fcb0f') in 0.018640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-displacement.tif
+  artifactKey: Guid(3d38a0990d97b794ba01ccd58467956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-displacement.tif using Guid(3d38a0990d97b794ba01ccd58467956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7983dcebb35a05889735c2029e9c08d') in 0.032015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-displacement.tif
+  artifactKey: Guid(65069d52ca949cb47968e9e518b9a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-displacement.tif using Guid(65069d52ca949cb47968e9e518b9a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e863ff5ea412222985da279c49cfe3') in 0.031012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-normal.png
+  artifactKey: Guid(c275d21f82a4fd94c99f23b583971cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-normal.png using Guid(c275d21f82a4fd94c99f23b583971cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b853a5670b0104d9a6182b71ac06c6a') in 0.032947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-specular.png
+  artifactKey: Guid(bb15665e6b189924d95c0b65103b7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-specular.png using Guid(bb15665e6b189924d95c0b65103b7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaca7779ddbb5ff42bc4625446793c4') in 0.021357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Materials/Environment/Textures/HardwoodFloor.jpg
+  artifactKey: Guid(976d532badf3f9d4899966b642259d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/HardwoodFloor.jpg using Guid(976d532badf3f9d4899966b642259d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6044a942960082cbd21144390ec6333e') in 0.017919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-diffuse.png
+  artifactKey: Guid(2035b6de3cb897a448840396938acab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-diffuse.png using Guid(2035b6de3cb897a448840396938acab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01253df2f6abb7e82d2a7eb5af31f2b8') in 0.025195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Sprites/References/houseModelSketchFurniture.png
+  artifactKey: Guid(0d4be6caf858b734bbe0ab0799cb12e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/References/houseModelSketchFurniture.png using Guid(0d4be6caf858b734bbe0ab0799cb12e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2636193acc2d1be3fd59c01e04508573') in 0.035855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/References/houseModelSimplified.png
+  artifactKey: Guid(62b9489a5fcbcc64cada3182572c850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/References/houseModelSimplified.png using Guid(62b9489a5fcbcc64cada3182572c850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee84a8a1b6128e2cff3e181a56f44326') in 0.033517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-normal.png
+  artifactKey: Guid(358d4fa45d3114c46ada12e5daad9f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Grass 1/Grass 1-normal.png using Guid(358d4fa45d3114c46ada12e5daad9f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eba06fde5b0e52090c07a2e7d35404') in 0.025496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-texture.png
+  artifactKey: Guid(4a6beb26998853d4bae7b43831b77b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/Textures/Environment Tiles/Gravel 1/Gravel 1-texture.png using Guid(4a6beb26998853d4bae7b43831b77b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c55db1bdb21510a138433b7f1ce0107') in 0.021874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/URP Stuff/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP Stuff/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2a1d692246b29289d05751b0853a05') in 0.037798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.128417 seconds.
+  path: Assets/Sprites/Parent's note/IMG_9667.jpg
+  artifactKey: Guid(b1f57adc43f68fe419ad5c0e8a888bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Parent's note/IMG_9667.jpg using Guid(b1f57adc43f68fe419ad5c0e8a888bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16a5cad7abcaecf8ebbf4d0b05c4627') in 0.031404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Sprites/Parent's note/IMG_9667 - Copy.jpg
+  artifactKey: Guid(9d06a431da460b54884f3a429a7792a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Parent's note/IMG_9667 - Copy.jpg using Guid(9d06a431da460b54884f3a429a7792a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df056da037431131f562663f0efa5910') in 0.055611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Scenes/Scenes/Testing/StoryManagerTesting/Lightmap-0_comp_dir.png
+  artifactKey: Guid(1fa4254f8dca1fc49a66c81728ad10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/StoryManagerTesting/Lightmap-0_comp_dir.png using Guid(1fa4254f8dca1fc49a66c81728ad10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3ad37a79b6116c0fd2de65904802da') in 0.025705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b76ca8ae4b42f214bb8f9141a30eb6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-0_comp_dir.png using Guid(b76ca8ae4b42f214bb8f9141a30eb6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179156a8566058c02b2b09cb8ee47a6a') in 0.021045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b9656e791d444cd43b7d1a311fdfcd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Lightmap-0_comp_dir.png using Guid(b9656e791d444cd43b7d1a311fdfcd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb316ae6742df3432cbcaa01a637ba1') in 0.029452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(9e661509840e7c042b49294976ec4539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(9e661509840e7c042b49294976ec4539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ca4fb1f36943ffb4ce72d515c5c899') in 0.023797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(0975a9b4faae282459356423534242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(0975a9b4faae282459356423534242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b50aac858f7bdce67db3fcf0e14d9d') in 0.049662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(2760c6a2e1c980e4785f19c8998fb2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Lightmap-1_comp_dir.png using Guid(2760c6a2e1c980e4785f19c8998fb2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6446663f9a4c68e9e96d7ad028bdb') in 0.023605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-1_comp_dir.png
+  artifactKey: Guid(07dae40b57fe2d4448491f74fbebb9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-1_comp_dir.png using Guid(07dae40b57fe2d4448491f74fbebb9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df551b272ee4a5cc59524e38036cd9e') in 0.016488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(70a779a8f35b8d6488a735dcfa26e06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Lightmap-0_comp_light.exr using Guid(70a779a8f35b8d6488a735dcfa26e06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8186a2dbefd3e6d743554e3e8f6f7e') in 0.053694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Scenes/Scenes/Testing/StoryManagerTesting/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2f10cfbbc92d1094b9d440afc53393ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/StoryManagerTesting/Lightmap-0_comp_light.exr using Guid(2f10cfbbc92d1094b9d440afc53393ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd691be72f9ce75baf5509e73c2b152ed') in 0.058217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-0_comp_light.exr
+  artifactKey: Guid(39c4693033516ef4f94f53d56ee945a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-0_comp_light.exr using Guid(39c4693033516ef4f94f53d56ee945a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cee150b217a576b2625c6b0529e390') in 0.025055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.384464 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8cc53f57c27bcb2408bd544af74c7d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Lightmap-1_comp_light.exr using Guid(8cc53f57c27bcb2408bd544af74c7d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a4a79bf43bac13ae8e9ea01fbc9616') in 0.024465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/MainMenu/MainMenu.png
+  artifactKey: Guid(2a0f3a48556f5d741ac766edd6676794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainMenu/MainMenu.png using Guid(2a0f3a48556f5d741ac766edd6676794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a51a542f21413c548f37f3bdbea6e6') in 0.033425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-1_comp_light.exr
+  artifactKey: Guid(5fbb9b55316bc93479e68df520145340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/Lighting Test/Lightmap-1_comp_light.exr using Guid(5fbb9b55316bc93479e68df520145340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb79b5507de36564fd74562d0ba4e233') in 0.026307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(86cb6ebf047f63c45a87c55ef26a6e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Lightmap-2_comp_dir.png using Guid(86cb6ebf047f63c45a87c55ef26a6e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b501e2bd36a0d7f3fe725f32d3c08c') in 0.019368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_green.png
+  artifactKey: Guid(cb50dcf1a4eb55b4b88baaab346f43d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_green.png using Guid(cb50dcf1a4eb55b4b88baaab346f43d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13678fb28b14d372aa2dc451cbf5927f') in 0.023623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Grey25.png
+  artifactKey: Guid(c2bd7ca7dfc41e74f8b7a6f038752653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Grey25.png using Guid(c2bd7ca7dfc41e74f8b7a6f038752653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4a3483a38f2e3464c6c31a7482fa9a') in 0.024428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Prefab_Grey50.png
+  artifactKey: Guid(032d4b65bdd3faa4d84dcafa4abb29d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Prefab_Grey50.png using Guid(032d4b65bdd3faa4d84dcafa4abb29d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a74d3343a9f1a6a0291fb5c240f75f') in 0.025604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Metal_100.png
+  artifactKey: Guid(f45e6c055ce655b43928749b800896ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Metal_100.png using Guid(f45e6c055ce655b43928749b800896ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bd2723921a6a956a288058981e8159') in 0.021575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_grey.png
+  artifactKey: Guid(4facd2882b206c44fb71486b27ee46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_grey.png using Guid(4facd2882b206c44fb71486b27ee46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4e00d69cbd4531850a61c3d02090f') in 0.019095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_blue.png
+  artifactKey: Guid(15b522c0cd109734cbc855dc86b671ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_blue.png using Guid(15b522c0cd109734cbc855dc86b671ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b9fafa1e87a66a3dce70af683367e3') in 0.021647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Grey75.png
+  artifactKey: Guid(8178c37168cf8044a87e6d0bfcf4c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Grey75.png using Guid(8178c37168cf8044a87e6d0bfcf4c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec372cc5968d3c08bfd3d7ecd0579f15') in 0.020478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Grey50.png
+  artifactKey: Guid(1e5a2e01a4a3ee94097f9aedd18a428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Grey50.png using Guid(1e5a2e01a4a3ee94097f9aedd18a428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53c1a08e74cc257631b843cb2e8ded7') in 0.015220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Black.png
+  artifactKey: Guid(163e5986f91272f488144a75184e837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Black.png using Guid(163e5986f91272f488144a75184e837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738677b2d16a170b2f9611fcb9f1df93') in 0.018392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_orange.png
+  artifactKey: Guid(919ed83828d252a49b973ffc358bc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_orange.png using Guid(919ed83828d252a49b973ffc358bc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b477332dd2bff38462d8b6b1aafef4d1') in 0.018052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_purple.png
+  artifactKey: Guid(5132aaacdac41e34b8fa6c00d4165dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_purple.png using Guid(5132aaacdac41e34b8fa6c00d4165dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3477c87e687af4baeca7ccbcf606a9ec') in 0.021559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(179b4a6464978694f80726d083be7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/Lightmap-2_comp_light.exr using Guid(179b4a6464978694f80726d083be7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bcb1fb18bbc9779db8073546fd04b6') in 0.021224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/UI/Sprites/MainMenu/MainMenu.png
+  artifactKey: Guid(47427e0eac8d5d1488aac84932462582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Sprites/MainMenu/MainMenu.png using Guid(47427e0eac8d5d1488aac84932462582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb36d19d836453b5d2adb893596a743') in 0.020472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_red.png
+  artifactKey: Guid(4c05f1b2162f1ae4bab1ca2f32098efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_red.png using Guid(4c05f1b2162f1ae4bab1ca2f32098efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693478dd4c450d7b49c4fac47d963942') in 0.023554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Ref_a.png
+  artifactKey: Guid(8dee026be87f4f1438d5664f2bd4ce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Ref_a.png using Guid(8dee026be87f4f1438d5664f2bd4ce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459b60145b614ddda9d16a6950dc2f99') in 0.024717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Ref_m.png
+  artifactKey: Guid(3223940fcbb1d154b897e37f7d40c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Ref_m.png using Guid(3223940fcbb1d154b897e37f7d40c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cfbfa1efcadfb523cd603f781ef043') in 0.020522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Ref_m7.png
+  artifactKey: Guid(8cf4bbadfb4d96f4dbd3095809fd3137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Ref_m7.png using Guid(8cf4bbadfb4d96f4dbd3095809fd3137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626097bdaa7b79f723f8b120ab5770b7') in 0.018320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Ref_m8.png
+  artifactKey: Guid(68c9cb170d305d44fa1955f5ad0d9dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Ref_m8.png using Guid(68c9cb170d305d44fa1955f5ad0d9dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7204bee31e1879b4bcd7dad5f83448') in 0.015833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_Ref_m9.png
+  artifactKey: Guid(defe2e426b0fd4e4292b8686455f2f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_Ref_m9.png using Guid(defe2e426b0fd4e4292b8686455f2f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faee557c408eb7df963dd525218e0bf') in 0.024912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_tan.png
+  artifactKey: Guid(caaccd99853c55b4481a663c535ddf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_tan.png using Guid(caaccd99853c55b4481a663c535ddf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab40c8d0145a8e33847eb56066596cd') in 0.016204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/UI/Sprites/Main/ProgressBar.png
+  artifactKey: Guid(4ea4a0a5da2e6604fb60bfb96c68ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Sprites/Main/ProgressBar.png using Guid(4ea4a0a5da2e6604fb60bfb96c68ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec35714ae29aa4f0524db6bf735ff2f8') in 0.025797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/UI/DevTex/Examples/demoscene/ReflectionProbe-0.exr
+  artifactKey: Guid(7655be5099796ac428c9a534f554221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Examples/demoscene/ReflectionProbe-0.exr using Guid(7655be5099796ac428c9a534f554221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70392c41ba82619566ae792ee29d1f17') in 0.085490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_White.png
+  artifactKey: Guid(1ec5e0646cf94fc48ae386a103d5fb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_White.png using Guid(1ec5e0646cf94fc48ae386a103d5fb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a722140f1434d73f54d2e4d3f190775') in 0.020383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Sprites/Main/ProgressBar.png
+  artifactKey: Guid(a6b47153bed143c4e8ba1a66eae6b09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main/ProgressBar.png using Guid(a6b47153bed143c4e8ba1a66eae6b09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1c34e0784a6258cbf516d3d7d2064a') in 0.016489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Scenes/Scenes/Testing/StoryManagerTesting/ReflectionProbe-0.exr
+  artifactKey: Guid(fd0230e8a786d0148856541edaff37db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Testing/StoryManagerTesting/ReflectionProbe-0.exr using Guid(fd0230e8a786d0148856541edaff37db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81668f4c50dbf7bcfe237f8f4ec84a12') in 0.022319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/UI/DevTex/Textures/Prefab_yellow.png
+  artifactKey: Guid(10e1e5a2783462b498b1b0f73eb1fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Prefab_yellow.png using Guid(10e1e5a2783462b498b1b0f73eb1fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19502d7f9e87b994e1822a10f603584') in 0.018729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.605253 seconds.
+  path: Assets/UI/DevTex/Textures/Small_way.png
+  artifactKey: Guid(f251e3f51487f4a48aa9d7443d1a38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DevTex/Textures/Small_way.png using Guid(f251e3f51487f4a48aa9d7443d1a38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7449115decf1623d6016f372822044') in 0.041905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/Main/Watch.png
+  artifactKey: Guid(5f93220a26747924aa06fd8cbbbab934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main/Watch.png using Guid(5f93220a26747924aa06fd8cbbbab934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776e2642096ef19145ebd45ba3b7aa8') in 0.025499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/UI/Sprites/Main/Watch.png
+  artifactKey: Guid(0eff84213b5271244a43c1974db7e260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Sprites/Main/Watch.png using Guid(0eff84213b5271244a43c1974db7e260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7026da664f6ffa5233093358640bfff5') in 0.018541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.675195 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/base_material 2.mat
+  artifactKey: Guid(e2ff4118305d11c41bb216685380c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/base_material 2.mat using Guid(e2ff4118305d11c41bb216685380c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd8d0cd548bf1e19cde3d3b81360447') in 0.016114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_4.mat
+  artifactKey: Guid(b5ded758bc8effe4a8fca6adf3012a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_4.mat using Guid(b5ded758bc8effe4a8fca6adf3012a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1d1ba043feb0dab8aead4e89f08330') in 0.029227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_3.mat
+  artifactKey: Guid(9a21eb46837654f4f84d01d31001741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_3.mat using Guid(9a21eb46837654f4f84d01d31001741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83f92bbc0a7eaffe191ee44f44361b3') in 0.035171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_1.mat
+  artifactKey: Guid(888daeabd7af8694783c9a32a9ca19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_1.mat using Guid(888daeabd7af8694783c9a32a9ca19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f188bf11443e923951f88d5ab529036') in 0.033010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_1.mat
+  artifactKey: Guid(3ce1607272ebf6f409222542a2548d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_1.mat using Guid(3ce1607272ebf6f409222542a2548d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ce60d80570a9b43d7d41709457a312') in 0.024014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_2.mat
+  artifactKey: Guid(9ef60bdc624a1594e89bdc4d48adc8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_2.mat using Guid(9ef60bdc624a1594e89bdc4d48adc8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194db645e6a6ce27997ca47eef3c60eb') in 0.028735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_2.mat
+  artifactKey: Guid(175c48b70a024c3478904cbd8e8be5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_2.mat using Guid(175c48b70a024c3478904cbd8e8be5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abd998915550dc0e5051e5a173daf29') in 0.024544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/floor.mat
+  artifactKey: Guid(4b0cad466fb77ed4981710d807cf7ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/floor.mat using Guid(4b0cad466fb77ed4981710d807cf7ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b812837b488e0542e9e9c0c0f197ff') in 0.035133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/wood_4.mat
+  artifactKey: Guid(6a76e7af6b1ec1147a48ad88ee029051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/wood_4.mat using Guid(6a76e7af6b1ec1147a48ad88ee029051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f81ad34b16b94fae438f1ec3c86f8ab') in 0.018325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/base_material.mat
+  artifactKey: Guid(366679cf3713065428e131e78f9593ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/base_material.mat using Guid(366679cf3713065428e131e78f9593ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064d3fb59ec4fee0127a11840586f794') in 0.024784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_3.mat
+  artifactKey: Guid(1a44110be72ce9e4bbf38a866d859da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/Materials/cloth_3.mat using Guid(1a44110be72ce9e4bbf38a866d859da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0232b09154c0dbc97171ca7e3d7132') in 0.025625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.875214 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom
+  artifactKey: Guid(caf1620eb571a6f4c8d5edec9eb7e582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom using Guid(caf1620eb571a6f4c8d5edec9eb7e582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b2988c7c0d8b42ea7185aa31e82162') in 0.009284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058177 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/brush.prefab
+  artifactKey: Guid(ae4a04ebba3b51f4bb3a2c49687f5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/brush.prefab using Guid(ae4a04ebba3b51f4bb3a2c49687f5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9289f5bc0129b0d45c25dfe08951c6') in 0.014242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/shower.prefab
+  artifactKey: Guid(f47c3332cc1e27e429e62f14a27f814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/shower.prefab using Guid(f47c3332cc1e27e429e62f14a27f814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761c1f1db4625e5e7d5a02f5ed2a5d81') in 0.057394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/drying_with_towel.prefab
+  artifactKey: Guid(5c5d675157a1a8c4bb3a499600b460f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/drying_with_towel.prefab using Guid(5c5d675157a1a8c4bb3a499600b460f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ac3d88511405bc3cda74298cd767ac') in 0.022076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/toilet.prefab
+  artifactKey: Guid(2c528509df862ef449544165d18b2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/toilet.prefab using Guid(2c528509df862ef449544165d18b2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2d74939efcb39725b787416651a46e') in 0.024221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/washbasin.prefab
+  artifactKey: Guid(47af50246352ed14da4ade618d736175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/washbasin.prefab using Guid(47af50246352ed14da4ade618d736175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4de4ed4243e2bd00f9453bcac4aa853') in 0.035943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/flasket.prefab
+  artifactKey: Guid(5c9ab8dcefc861c4c962bbf326d5abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Prefabs/Bathroom/flasket.prefab using Guid(5c9ab8dcefc861c4c962bbf326d5abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196843fbc80a545cb8abd4c7f608a184') in 0.019698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.778059 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/bed_1.FBX
+  artifactKey: Guid(a66f756b6810535438053fc6a961a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/bed_1.FBX using Guid(a66f756b6810535438053fc6a961a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65d41d371cc68cab79a09a4f6bd69b') in 0.090226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598745 seconds.
+  path: Assets/Prefabs/BigFurniturePack/Models/bed_1.FBX
+  artifactKey: Guid(a66f756b6810535438053fc6a961a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigFurniturePack/Models/bed_1.FBX using Guid(a66f756b6810535438053fc6a961a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306c47d57180ab73bbf17e7b682b152e') in 0.098712 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Aryan Puthran\Unity Games\Current\MidnightPsychosis-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Aryan Puthran\Unity Games\Current\MidnightPsychosis-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2080ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1860ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (469ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 320.2 MB.
+System memory in use after: 320.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 6803.
+Total: 4.841800 ms (FindLiveObjects: 0.884600 ms CreateObjectMapping: 0.615400 ms MarkObjects: 3.193700 ms  DeleteObjects: 0.146800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
