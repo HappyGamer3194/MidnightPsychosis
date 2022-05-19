@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 10057_wooden_door_frame_v1Mat
-    second: {fileID: 2100000, guid: 0b6125a6612406841ba0366946638bac, type: 2}
+    second: {fileID: 2100000, guid: e6190ba7461ad34409d7d5bd876a52fd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 10057_wooden_door_v1Mat
-    second: {fileID: 2100000, guid: 0b6125a6612406841ba0366946638bac, type: 2}
+    second: {fileID: 2100000, guid: 352c97b89fb57c14eae6def1c85a5fdf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
