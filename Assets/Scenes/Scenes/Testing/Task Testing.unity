@@ -415,18 +415,49 @@ MonoBehaviour:
   interactables:
   - interactable: {fileID: 2060116914}
     animator: {fileID: 0}
-    freezeState: 0
-    freezePosition: {x: 0, y: 0, z: 0}
-    freezeTransition: 0
-    freezeDuration: 0
-    changeMaterial: 0
+    freezeState: 1
+    freezePosition: {x: -3.72, y: 1, z: -0.16}
+    freezeTransition: 0.1
+    freezeDuration: 10
+    changeMaterial: 1
     material: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-    changeTime: 5
-    currentChangeTime: 0
-    portable: 1
+    portable: 0
     endingLocation: {x: 1, y: 0.5, z: 5}
     offset: {x: 0, y: 0, z: 0.7}
-  pickupTime: 0.05
+    pickupTime: 0
+    bringToTrigger: 0
+    portabilityTrigger: {fileID: 0}
+  - interactable: {fileID: 2060116914}
+    animator: {fileID: 0}
+    freezeState: 1
+    freezePosition: {x: -3.72, y: 1, z: -0.16}
+    freezeTransition: 0.1
+    freezeDuration: 10
+    changeMaterial: 0
+    material: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    portable: 0
+    endingLocation: {x: 1, y: 0.5, z: 5}
+    offset: {x: 0, y: 0, z: 0.7}
+    pickupTime: 0
+    bringToTrigger: 0
+    portabilityTrigger: {fileID: 0}
+  - interactable: {fileID: 2060116914}
+    animator: {fileID: 466004144}
+    freezeState: 0
+    freezePosition: {x: -3.72, y: 1, z: -0.16}
+    freezeTransition: 0.1
+    freezeDuration: 50
+    changeMaterial: 0
+    material: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    portable: 0
+    endingLocation: {x: 1, y: 0.5, z: 5}
+    offset: {x: 0, y: 0, z: 0.7}
+    pickupTime: 0
+    bringToTrigger: 0
+    portabilityTrigger: {fileID: 0}
+  interacted: 0
+  allTasksCompleted: 0
+  timeSinceInteracted: 0
   watchNotifications: {fileID: 1801073053}
 --- !u!4 &643089403
 Transform:

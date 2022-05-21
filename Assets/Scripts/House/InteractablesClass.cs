@@ -25,12 +25,6 @@ public class Interactables
     public bool changeMaterial;
     [ConditionalHide("changeMaterial", true)]
     public Material material;
-    [ConditionalHide("changeMaterial", true)]
-    [Tooltip("Time until material is changed")]
-    public float changeTime;
-    [ConditionalHide("changeMaterial", true)]
-    [Tooltip("Current time since object has been interacted with")]
-    public float currentChangeTime;
 
     //Checks if the object is able to be picked up
     [Header("Portability")]
@@ -39,4 +33,10 @@ public class Interactables
     public Vector3 endingLocation;
     [ConditionalHide("portable", true)]
     public Vector3 offset;
+    [ConditionalHide("portable", true)]
+    public float pickupTime;
+    [ConditionalHide("portable", true)]
+    public bool bringToTrigger;
+    [ConditionalHide("portable", true)]
+    public GameObject portabilityTrigger;
 }
