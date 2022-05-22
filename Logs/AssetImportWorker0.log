@@ -15,11 +15,11 @@ C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52371
+58956
 Successfully changed project path to: C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main
 C:/Users/Aryan Puthran/Unity Games/Current/MidnightPsychosis-main
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.15f1 (e767a7370072)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002649 seconds.
+Registered in 0.002388 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.546 seconds
+- Completed reload, in  1.376 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1546ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (578ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (185ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (259ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (113ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
 				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,37 +73,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008826 seconds.
+Registered in 0.008443 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Aryan Puthran\Unity Games\Current\MidnightPsychosis-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Aryan Puthran\Unity Games\Current\MidnightPsychosis-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.454 seconds
+- Completed reload, in  1.488 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1454ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1489ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1230ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1254ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
+			SetupTypeCache (446ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (504ms)
+			SetupLoadedEditorAssemblies (521ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,15 +111,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4504 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.4 MB.
-System memory in use after: 175.6 MB.
+System memory in use before: 176.2 MB.
+System memory in use after: 176.4 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4947.
-Total: 3.653700 ms (FindLiveObjects: 0.396400 ms CreateObjectMapping: 0.329300 ms MarkObjects: 2.797100 ms  DeleteObjects: 0.129800 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4949.
+Total: 3.248100 ms (FindLiveObjects: 0.333500 ms CreateObjectMapping: 0.227200 ms MarkObjects: 2.542000 ms  DeleteObjects: 0.144500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,93 +133,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/MainMenu.asset
-  artifactKey: Guid(8d41253f507722b449d2118080811435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMenu.asset using Guid(8d41253f507722b449d2118080811435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf310e66b81b4bd55d549c629fd5cd02') in 0.114388 seconds 
+  path: Assets/Prefabs/Monster.obj
+  artifactKey: Guid(1893916858bcac14a9ffb66bdf7dbdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monster.obj using Guid(1893916858bcac14a9ffb66bdf7dbdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c27e8896d4574129b3f58bd913a133f') in 0.276438 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Main.asset
-  artifactKey: Guid(916e200c244d6a94c994f94c8ea5046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.asset using Guid(916e200c244d6a94c994f94c8ea5046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '6f0207838b6c6bed1b07273dc0b508a9') in 0.441998 seconds 
+  Time since last request: 0.000285 seconds.
+  path: Assets/Prefabs/SoundTrigger.prefab
+  artifactKey: Guid(3ffc34a85a40a474e82c87b66f1a9c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SoundTrigger.prefab using Guid(3ffc34a85a40a474e82c87b66f1a9c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06f5a80ca915d27ed0d8ef958d18147') in 0.018825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.217656 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(4fd43c32ec8544e479959ea8f32d8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(4fd43c32ec8544e479959ea8f32d8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2032dd9a28513112f8e9094debb11e4c') in 0.008010 seconds 
+  Time since last request: 0.000270 seconds.
+  path: Assets/Prefabs/tree2.fbx
+  artifactKey: Guid(d001dcc9e6d330946b3f470f03dde328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree2.fbx using Guid(d001dcc9e6d330946b3f470f03dde328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3d9cfcefcafc530ed6c22428c94aa6') in 0.381183 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.440854 seconds.
-  path: Assets/Scenes/Scenes
-  artifactKey: Guid(1e73c67674e9b1b4d865a898b153d907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes using Guid(1e73c67674e9b1b4d865a898b153d907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef97e9419a2e44042323eaeb5b938813') in 0.004409 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/Prefabs/HouseModel.fbx
+  artifactKey: Guid(1931ae211a0bd884b9cb7e7152dffe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HouseModel.fbx using Guid(1931ae211a0bd884b9cb7e7152dffe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e182d10af15a3c2afa4c8111ee7c809e') in 0.381323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.967072 seconds.
-  path: Assets/Scenes/Scenes/Main.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes/Main.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4801593c0f0f5b650dfccf19a306661a') in 0.011967 seconds 
+  Time since last request: 0.000296 seconds.
+  path: Assets/Prefabs/Door.prefab
+  artifactKey: Guid(95537c05e7aa4d348bb421da5d61459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.prefab using Guid(95537c05e7aa4d348bb421da5d61459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087bb7d6ea3fa0fd37d7ed2827d5d568') in 0.316542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.666801 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Demo.unity
-  artifactKey: Guid(cdc2f5a5adb682d4d8e8f12ee13fe7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Demo.unity using Guid(cdc2f5a5adb682d4d8e8f12ee13fe7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86ab4028c09dede30029fe0e3578178') in 0.012244 seconds 
+  Time since last request: 0.000360 seconds.
+  path: Assets/Prefabs/CrowArt - PBR Cardboard Box
+  artifactKey: Guid(93afd3d56e97dfb4fb78b175529b974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box using Guid(93afd3d56e97dfb4fb78b175529b974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfbaa884cafa687b1be6f4e43f02c48') in 0.006102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.979988 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Prefabs
-  artifactKey: Guid(6e0168ca103f94e4e8afa266dee42f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Prefabs using Guid(6e0168ca103f94e4e8afa266dee42f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4590b23df323b50a74baf6335a7e4a6d') in 0.010514 seconds 
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/Post-process Volume.prefab
+  artifactKey: Guid(1546e257a63253d4fa277715c66f255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Post-process Volume.prefab using Guid(1546e257a63253d4fa277715c66f255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09446233e52e6e94fbb0131595800dab') in 0.011791 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.055722 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1(Physics).prefab
-  artifactKey: Guid(acbdb13218a23b644b2a15c0a6fbd3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1(Physics).prefab using Guid(acbdb13218a23b644b2a15c0a6fbd3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaacf5ad0769a10cf45a164e9c108ed') in 0.354223 seconds 
+  Time since last request: 0.000410 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(6083bf92584df094096478dc5888933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(6083bf92584df094096478dc5888933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a3580205be37db57de8ceade5c005e') in 0.118762 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1.prefab
-  artifactKey: Guid(c350023b68bece943928351ad0df5c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1.prefab using Guid(c350023b68bece943928351ad0df5c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8a1d38097e7f214c1bf834a1e9aeec') in 0.038279 seconds 
+  Time since last request: 0.000349 seconds.
+  path: Assets/Prefabs/PauseMenu.prefab
+  artifactKey: Guid(5bdf2f92732581549ad0f0bb73782d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseMenu.prefab using Guid(5bdf2f92732581549ad0f0bb73782d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ed6c4b7ce418f12f0571002b7ea4ed') in 0.025327 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.568924 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Materials/m_cardboardBox_1.mat
-  artifactKey: Guid(ccdf908219c056e47b7042e940f76eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Materials/m_cardboardBox_1.mat using Guid(ccdf908219c056e47b7042e940f76eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b66beaf2400c37ae7ebaeccf89bac3') in 0.052587 seconds 
+  Time since last request: 0.000305 seconds.
+  path: Assets/Prefabs/SmartWatch.prefab
+  artifactKey: Guid(69b37e34d345b74419819d8365e31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SmartWatch.prefab using Guid(69b37e34d345b74419819d8365e31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e4057e7827e13fd9f5790e5f912ea') in 0.010067 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.129398 seconds.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures
+  artifactKey: Guid(02931a3dd2d7cb6489059999a6ef7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures using Guid(02931a3dd2d7cb6489059999a6ef7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8534e2238cfd1d1af7036ec541cbb6c8') in 0.005953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 705.270628 seconds.
   path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_albedo.png
   artifactKey: Guid(9e839d8d0f0a27f4e95db6f1b4eb1cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_albedo.png using Guid(9e839d8d0f0a27f4e95db6f1b4eb1cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afb4346c5b968d39b2f330c57cfedf7') in 0.028582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_normal.png
-  artifactKey: Guid(1e1677d631bce5d4f9630575884ecc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_normal.png using Guid(1e1677d631bce5d4f9630575884ecc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54566abcf308aef72fa225eae1a97cd') in 0.026223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000741 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_occlusion.png
-  artifactKey: Guid(9777ae72feed8024697cc5d4e9bb008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_occlusion.png using Guid(9777ae72feed8024697cc5d4e9bb008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbfd7e07b30f37682fb965288c3133f') in 0.022693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000731 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_metallic.psd
-  artifactKey: Guid(a9d45976a9795dc47b3388c171f6b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_metallic.psd using Guid(a9d45976a9795dc47b3388c171f6b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249bf5f4e383248bc8301bad6cc3ed36') in 0.032328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.052440 seconds.
-  path: Assets/Prefabs/CrowArt - PBR Cardboard Box/Models/Cardboard_box_1.fbx
-  artifactKey: Guid(e8ffcb9c31ba4f04fa5e284aad39d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Models/Cardboard_box_1.fbx using Guid(e8ffcb9c31ba4f04fa5e284aad39d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41fd25a4c5acf06d8c987c1c6ad9ca2') in 0.632618 seconds 
+Start importing Assets/Prefabs/CrowArt - PBR Cardboard Box/Textures/t_box_1_albedo.png using Guid(9e839d8d0f0a27f4e95db6f1b4eb1cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba0f2b55114905f00cbc5cfac9afd17') in 0.365535 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
