@@ -20,7 +20,6 @@ public class InteractScript : MonoBehaviour
         {
             interacted = true;
         }
-
         if (interacted == true)
         {
             timeSinceInteracted += Time.fixedDeltaTime;
@@ -66,6 +65,10 @@ public class InteractScript : MonoBehaviour
                     TaskCompleted();
                 }
             }
+            if (interactables[currentInteractable].animator == null && interactables[currentInteractable].portable == false && interactables[currentInteractable].freezeState == false && interactables[currentInteractable].material == false)
+            {
+                TaskCompleted();
+            }
         }
         if (resetPosition == true)
         {
@@ -96,7 +99,10 @@ public class InteractScript : MonoBehaviour
 
     void ResetVariables()
     {
-        resetPosition = true;
+        if (interactables[currentInteractable].portable)
+        {
+            resetPosition = true;
+        }
         interacted = false;
         timeSinceInteracted = 0;
     }
