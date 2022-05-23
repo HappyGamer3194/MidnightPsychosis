@@ -6,6 +6,7 @@ using UnityEngine;
 public class Interactables
 {
     public GameObject interactable;
+    public GameObject trigger;
     public Animator animator;
 
     //Freezes player on object interaction
@@ -37,6 +38,8 @@ public class Interactables
     public float pickupTime;
     [ConditionalHide("portable", true)]
     public bool bringToTrigger;
+    [ConditionalHide("portable", true)]
+    public Transform bringTrigger;
     [ConditionalHide("portable", true)]
     public GameObject portabilityTrigger;
 }

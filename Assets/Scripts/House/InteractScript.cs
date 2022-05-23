@@ -9,14 +9,14 @@ public class InteractScript : MonoBehaviour
     int currentInteractable = 0;
     public bool interacted;
     public bool allTasksCompleted;
+    public bool resetPosition;
     public float timeSinceInteracted = 0;
-
     public GameObject watchNotifications;
 
     // Update is called once per frame
     void Update()
     {
-        if (interactables[currentInteractable].interactable.GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
+        if (interactables[currentInteractable].trigger.GetComponent<Trigger>().entered == true && Input.GetButtonDown("Interact"))
         {
             interacted = true;
         }
@@ -35,8 +35,17 @@ public class InteractScript : MonoBehaviour
             }
             if (interactables[currentInteractable].portable == true)
             {
+                resetPosition = false;
                 interactables[currentInteractable].interactable.transform.parent = GameObject.FindGameObjectWithTag("Player").transform;
                 interactables[currentInteractable].interactable.transform.localPosition = Vector3.Slerp(interactables[currentInteractable].interactable.transform.localPosition, interactables[currentInteractable].offset, interactables[currentInteractable].pickupTime);
+
+                if (interactables[currentInteractable].bringToTrigger)
+                {
+                    if (interactables[currentInteractable].bringTrigger.GetComponent<Trigger>().entered == true)
+                    {
+                        TaskCompleted();
+                    }
+                }
             }
             if (interactables[currentInteractable].freezeState == true)
             {
@@ -57,6 +66,11 @@ public class InteractScript : MonoBehaviour
                     TaskCompleted();
                 }
             }
+        }
+        if (resetPosition == true)
+        {
+            interactables[currentInteractable -1].interactable.transform.parent = null;
+            interactables[currentInteractable -1].interactable.transform.position = Vector3.Slerp(interactables[currentInteractable -1].interactable.transform.position, interactables[currentInteractable -1].endingLocation, interactables[currentInteractable -1].pickupTime);
         }
     }
 
@@ -82,6 +96,7 @@ public class InteractScript : MonoBehaviour
 
     void ResetVariables()
     {
+        resetPosition = true;
         interacted = false;
         timeSinceInteracted = 0;
     }
