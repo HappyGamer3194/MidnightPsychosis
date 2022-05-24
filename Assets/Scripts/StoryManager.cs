@@ -9,6 +9,7 @@ public class StoryManager : MonoBehaviour
 
     public StoryAnimations[] animations;
     public int animationNum;
+    bool finished;
 
     // Update is called once per frame
     void Update()
@@ -28,8 +29,14 @@ public class StoryManager : MonoBehaviour
             }
         }
 
-        if (animations[animationNum].trigger.entered == true)
+        if (animations[animationNum].trigger.entered == true && finished == false)
         {
+            if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false)
+            {
+                animations[animationNum].audio.Play(0);
+                finished = true;
+            }
+
             animations[animationNum].objectToBeAnimated.SetBool("Activate", true);
 
             if (animationNum +1 != animations.Length)

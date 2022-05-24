@@ -7,4 +7,6 @@ public class SubtitleLines
 {
     public string line;
     public Trigger trigger;
+    public AudioSource sound;
+    public bool pauseSound;
 }

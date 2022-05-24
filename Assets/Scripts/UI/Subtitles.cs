@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Subtitles : MonoBehaviour
 {
@@ -19,9 +20,27 @@ public class Subtitles : MonoBehaviour
         {
             if (subtitles[currentTextNum].trigger.entered == true)
             {
-                text = subtitles[currentTextNum].line;
+                if (subtitles[currentTextNum].pauseSound == false)
+                {
+                    subtitles[currentTextNum].sound.Play(0);
+                } else
+                {
+                    subtitles[currentTextNum].sound.Pause();
+                }
+                if (subtitles[currentTextNum].line != null)
+                {
+                    text = subtitles[currentTextNum].line;
+                }
+
+                StartCoroutine("blankAfter");
                 currentTextNum += 1;
             }
         }
+    }
+
+    private IEnumerator blankAfter()
+    {
+        yield return new WaitForSeconds(10);
+        text = " ";
     }
 }

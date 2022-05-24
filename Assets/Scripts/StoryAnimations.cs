@@ -9,4 +9,5 @@ public class StoryAnimations
     public string name;
     public Trigger trigger;
     public Animator objectToBeAnimated;
+    public AudioSource audio;
 }
