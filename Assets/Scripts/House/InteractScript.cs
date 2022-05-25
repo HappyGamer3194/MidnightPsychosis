@@ -9,6 +9,7 @@ public class InteractScript : MonoBehaviour
     public Interactables[] interactables;
     int currentInteractable = 0;
     public bool interacted;
+    public bool finishedAnimation;
     public bool allTasksCompleted;
     public bool resetPosition;
     public float timeSinceInteracted = 0;
@@ -28,8 +29,9 @@ public class InteractScript : MonoBehaviour
             if (interactables[currentInteractable].animator != null)
             {
                 interactables[currentInteractable].animator.SetBool("Activate", true);
-                if (interactables[currentInteractable].animator.GetCurrentAnimatorStateInfo(0).IsName("Finished"))
+                if (interactables[currentInteractable].animator.GetCurrentAnimatorStateInfo(0).IsName("Finished") && finishedAnimation == false)
                 {
+                    finishedAnimation = true;
                     TaskCompleted();
                 }
             }
@@ -106,6 +108,7 @@ public class InteractScript : MonoBehaviour
         {
             resetPosition = true;
         }
+        finishedAnimation = false;
         interacted = false;
         timeSinceInteracted = 0;
     }

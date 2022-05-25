@@ -20,12 +20,15 @@ public class Subtitles : MonoBehaviour
         {
             if (subtitles[currentTextNum].trigger.entered == true)
             {
-                if (subtitles[currentTextNum].pauseSound == false)
+                if (subtitles[currentTextNum].sound != null)
                 {
-                    subtitles[currentTextNum].sound.Play(0);
-                } else
-                {
-                    subtitles[currentTextNum].sound.Pause();
+                    if (subtitles[currentTextNum].pauseSound == false)
+                    {
+                        subtitles[currentTextNum].sound.Play(0);
+                    } else
+                    {
+                        subtitles[currentTextNum].sound.Pause();
+                    }
                 }
                 if (subtitles[currentTextNum].line != null)
                 {

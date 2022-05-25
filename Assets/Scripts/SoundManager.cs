@@ -15,7 +15,7 @@ public class SoundManager : MonoBehaviour
 
     // linearized volume slider using logarithms ew
     public void SetVolume (float sliderValue)
-    {
+    {   
         mixer.SetFloat("masterVol", Mathf.Log10(sliderValue) * 20);
     }
 
