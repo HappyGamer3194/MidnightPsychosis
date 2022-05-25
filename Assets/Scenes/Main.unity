@@ -4600,7 +4600,7 @@ Light:
   m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 895
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -34901,7 +34901,7 @@ Light:
   m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 895
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -41782,9 +41782,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8040138236041343652, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
+      propertyPath: m_TreeDistance
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040138236041343652, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
       propertyPath: m_MaterialTemplate
       value: 
       objectReference: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
+    - target: {fileID: 8040138236041343652, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
+      propertyPath: m_DetailObjectDistance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040138236041343652, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
+      propertyPath: m_TreeBillboardDistance
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8040138236041343653, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
       propertyPath: m_RootOrder
       value: 8
