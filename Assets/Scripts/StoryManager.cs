@@ -33,7 +33,11 @@ public class StoryManager : MonoBehaviour
         {
             if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false)
             {
-                animations[animationNum].audio.Play(0);
+                if (GameObject.Find("GameManager").GetComponent<GameManager>().mrTuohyFriendlyMode == false)
+                {
+                   animations[animationNum].audio.Play(0);
+                }
+
                 finished = true;
             }
 

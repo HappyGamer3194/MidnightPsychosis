@@ -5956,6 +5956,22 @@ MonoBehaviour:
     bringToTrigger: 1
     bringTrigger: {fileID: 1903447567}
     portabilityTrigger: {fileID: 2081900909}
+  - interactable: {fileID: 1863365522}
+    trigger: {fileID: 963887458}
+    animator: {fileID: 0}
+    freezeState: 1
+    freezePosition: {x: -1.35, y: 1.56, z: 5.22}
+    freezeTransition: 0.1
+    freezeDuration: 50
+    changeMaterial: 0
+    material: {fileID: 0}
+    portable: 0
+    endingLocation: {x: -72.44, y: 1.05, z: 30.49}
+    offset: {x: 0, y: 0, z: 2}
+    pickupTime: 0.1
+    bringToTrigger: 1
+    bringTrigger: {fileID: 1903447567}
+    portabilityTrigger: {fileID: 2081900909}
   interacted: 0
   finishedAnimation: 0
   allTasksCompleted: 0
@@ -11056,9 +11072,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1a5dad37236056043a2eba914443ffcf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 95233553b0d45c84f8b0bcb85d68a042, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.316
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -34710,7 +34726,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: d1a28d9969c185047b252150c0c0bbcc, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -34914,6 +34930,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1863365522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 133c508540525d34f864dc543e153a4f, type: 3}
+  m_PrefabInstance: {fileID: 1552531315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1866988947
 GameObject:
   m_ObjectHideFlags: 0
@@ -37035,6 +37056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcaf892f6b132e24489095e1b084a255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mrTuohyFriendlyMode: 0
   playerAlive: 1
   sleeping: 0
   interacting: 0
@@ -41845,6 +41867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain
       objectReference: {fileID: 0}
+    - target: {fileID: 8040138236041343654, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35bae91215c076b45bb5e4efaf53864f, type: 3}
 --- !u!4 &3677880510860168815
@@ -42337,7 +42363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765294, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: gravity
-      value: -10
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765294, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: walkingSpeed
@@ -42377,15 +42403,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765298, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -36.6
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765298, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.9
+      value: 3.19
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765298, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5
+      value: 14.8
       objectReference: {fileID: 0}
     - target: {fileID: 2340680953041097477, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_Enabled

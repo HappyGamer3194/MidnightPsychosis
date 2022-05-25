@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [Header ("Mr Tuohy Friendly Mode")]
+    public bool mrTuohyFriendlyMode;
+
+    [Header ("Player Tracking")]
     public bool playerAlive;
     public bool sleeping;
     public bool interacting;
