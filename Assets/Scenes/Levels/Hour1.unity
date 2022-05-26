@@ -34398,7 +34398,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4958d6ead03a0e149af93c8a361fbf1b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.395
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -41695,6 +41695,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 19.199997
       objectReference: {fileID: 0}
+    - target: {fileID: 322255076869510618, guid: 69b37e34d345b74419819d8365e31499, type: 3}
+      propertyPath: startHour
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 322255076869510618, guid: 69b37e34d345b74419819d8365e31499, type: 3}
+      propertyPath: startMinute
+      value: 28
+      objectReference: {fileID: 0}
     - target: {fileID: 8813683572477966633, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -41863,7 +41871,7 @@ GameObject:
   - component: {fileID: 3493983411837688059}
   - component: {fileID: 3493983411837688004}
   m_Layer: 5
-  m_Name: PauseMenu (1)
+  m_Name: SmartWatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

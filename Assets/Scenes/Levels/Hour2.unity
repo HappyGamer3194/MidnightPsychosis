@@ -2026,11 +2026,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69086654}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &71744325 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8044826761974297926, guid: 95537c05e7aa4d348bb421da5d61459c, type: 3}
-  m_PrefabInstance: {fileID: 1495435548}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &85269289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5891,87 +5886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c455c6023c3654fbcd10b0285d436b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactables:
-  - interactable: {fileID: 71744325}
-    trigger: {fileID: 432820290}
-    animator: {fileID: 0}
-    freezeState: 0
-    freezePosition: {x: -72.34127, y: 3.2688606, z: 30.968569}
-    freezeTransition: 0.1
-    freezeDuration: 1000
-    changeMaterial: 0
-    material: {fileID: 0}
-    portable: 0
-    endingLocation: {x: -72.44, y: 1.05, z: 30.49}
-    offset: {x: 0, y: 0, z: 2}
-    pickupTime: 0.1
-    bringToTrigger: 1
-    bringTrigger: {fileID: 1903447567}
-    portabilityTrigger: {fileID: 2081900909}
-  - interactable: {fileID: 463922201}
-    trigger: {fileID: 518477710}
-    animator: {fileID: 0}
-    freezeState: 0
-    freezePosition: {x: -72.34127, y: 3.2688606, z: 30.968569}
-    freezeTransition: 0.1
-    freezeDuration: 1000
-    changeMaterial: 0
-    material: {fileID: 0}
-    portable: 0
-    endingLocation: {x: -72.44, y: 1.05, z: 30.49}
-    offset: {x: 0, y: 0, z: 2}
-    pickupTime: 0.1
-    bringToTrigger: 0
-    bringTrigger: {fileID: 0}
-    portabilityTrigger: {fileID: 0}
-  - interactable: {fileID: 1603364134}
-    trigger: {fileID: 2081900909}
-    animator: {fileID: 0}
-    freezeState: 0
-    freezePosition: {x: 0, y: 0, z: 0}
-    freezeTransition: 0
-    freezeDuration: 0
-    changeMaterial: 0
-    material: {fileID: 0}
-    portable: 1
-    endingLocation: {x: -72.44, y: 1.05, z: 31}
-    offset: {x: 0, y: 0, z: 2}
-    pickupTime: 0.1
-    bringToTrigger: 1
-    bringTrigger: {fileID: 1903447567}
-    portabilityTrigger: {fileID: 2081900909}
-  - interactable: {fileID: 1074465968212242452}
-    trigger: {fileID: 682285721}
-    animator: {fileID: 1074465968212242453}
-    freezeState: 1
-    freezePosition: {x: -72.34127, y: 3.2688606, z: 30.968569}
-    freezeTransition: 0.1
-    freezeDuration: 1000
-    changeMaterial: 0
-    material: {fileID: 0}
-    portable: 0
-    endingLocation: {x: -72.44, y: 1.05, z: 30.49}
-    offset: {x: 0, y: 0, z: 2}
-    pickupTime: 0.1
-    bringToTrigger: 1
-    bringTrigger: {fileID: 1903447567}
-    portabilityTrigger: {fileID: 2081900909}
-  - interactable: {fileID: 1863365522}
-    trigger: {fileID: 963887458}
-    animator: {fileID: 0}
-    freezeState: 1
-    freezePosition: {x: -1.35, y: 1.56, z: 5.22}
-    freezeTransition: 0.1
-    freezeDuration: 50
-    changeMaterial: 0
-    material: {fileID: 0}
-    portable: 0
-    endingLocation: {x: -72.44, y: 1.05, z: 30.49}
-    offset: {x: 0, y: 0, z: 2}
-    pickupTime: 0.1
-    bringToTrigger: 1
-    bringTrigger: {fileID: 1903447567}
-    portabilityTrigger: {fileID: 2081900909}
+  interactables: []
   interacted: 0
   finishedAnimation: 0
   allTasksCompleted: 0
@@ -8215,11 +8130,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429575235}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &432820290 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8044826762324337813, guid: 95537c05e7aa4d348bb421da5d61459c, type: 3}
-  m_PrefabInstance: {fileID: 1495435548}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &432850748
 GameObject:
   m_ObjectHideFlags: 0
@@ -35031,11 +34941,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &1863365522 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100002, guid: 133c508540525d34f864dc543e153a4f, type: 3}
-  m_PrefabInstance: {fileID: 1552531315}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1866988947
 GameObject:
   m_ObjectHideFlags: 0

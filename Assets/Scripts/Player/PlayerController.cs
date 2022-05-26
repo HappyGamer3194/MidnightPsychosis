@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundMask;
 
     public bool isGrounded;
+    public bool isMoving;
 
     public Vector3 velocity;
 
@@ -87,6 +88,15 @@ public class PlayerController : MonoBehaviour
         //Inputs for player movement
         float xInput = Input.GetAxis("Horizontal") * speed;
         float yInput = Input.GetAxis("Vertical") * speed;
+
+        if (xInput != 0 || yInput != 0)
+        {
+            isMoving = true;
+        } else
+        {
+            isMoving = false;
+        }
+
 
         Vector3 move = transform.right * xInput + transform.forward * yInput;
         controller.Move(move * speed * Time.deltaTime);

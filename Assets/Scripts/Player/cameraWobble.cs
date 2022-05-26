@@ -28,11 +28,15 @@ public class cameraWobble : MonoBehaviour
         rotation.z = Mathf.Sin(dist * speed) * amount;
         transform.localEulerAngles = rotation;
 
-        if (player.GetComponent<CharacterController>().velocity.magnitude > 0.3f && sound.isPlaying == false)
+        if (player.GetComponent<PlayerController>().isMoving == true && sound.isPlaying == false)
         {
             sound.volume = Random.Range(0.8f, 1);
             sound.pitch = Random.Range(0.8f, 1.1f);
             sound.Play();
+        }
+        if (player.GetComponent<PlayerController>().isMoving == false)
+        {
+            sound.Pause();
         }
     }
 }
