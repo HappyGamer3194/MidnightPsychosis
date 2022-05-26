@@ -5861,13 +5861,13 @@ MonoBehaviour:
     endingLocation: {x: -72.44, y: 1.05, z: 30.49}
     offset: {x: 0, y: 0, z: 2}
     pickupTime: 0.1
-    bringToTrigger: 1
+    bringToTrigger: 0
     bringTrigger: {fileID: 1903447567}
     portabilityTrigger: {fileID: 2081900909}
   - interactable: {fileID: 1863365522}
     trigger: {fileID: 963887458}
     animator: {fileID: 0}
-    freezeState: 1
+    freezeState: 0
     freezePosition: {x: -1.35, y: 1.56, z: 5.22}
     freezeTransition: 0.1
     freezeDuration: 50
@@ -42636,7 +42636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765298, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765298, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -42644,7 +42644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765298, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2340680953041097477, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: m_Enabled

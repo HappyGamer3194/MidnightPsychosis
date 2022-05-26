@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\UI\Subtitles.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
     <Compile Include="Assets\Scripts\House\InteractScript.cs" />
@@ -73,6 +76,7 @@
     <Compile Include="Assets\Scripts\UI\PopupIndexClass.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\cameraWobble.cs" />
+    <Compile Include="Assets\Scripts\House\Flickering.cs" />
     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\URP Stuff\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\UI\Notifications.cs" />
@@ -85,7 +89,6 @@
     <Compile Include="Assets\Scripts\StoryAnimations.cs" />
     <Compile Include="Assets\Scripts\UI\InteractTextController.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterAI2.cs" />
-    <Compile Include="Assets\Scripts\House\Flickering.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
