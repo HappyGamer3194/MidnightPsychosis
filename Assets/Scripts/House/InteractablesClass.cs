@@ -20,8 +20,9 @@ public class Interactables
 
     //Changes objects material
     [Header("Material")]
-    public bool changeMaterial;
-    public Material material;
+    public bool changeSprite;
+    public Sprite sprite;
+    public GameObject spriteToChange;
 
     //Checks if the object is able to be picked up
     [Header("Portability")]

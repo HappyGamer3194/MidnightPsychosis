@@ -6,16 +6,12 @@ public class LookAt : MonoBehaviour
 {
     public GameObject trigger;
     public GameObject letterUI;
+    public GameObject door;
 
     public string input;
 
     bool lookingAt;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    bool lookedAt;
 
     // Update is called once per frame
     void Update()
@@ -31,10 +27,21 @@ public class LookAt : MonoBehaviour
             letterUI.SetActive(false);
         }
 
-        if (lookingAt)
+        if (lookingAt && lookedAt == false)
         {
             GetComponent<MeshRenderer>().enabled = false;
             letterUI.SetActive(true);
+
+            if (Input.GetButtonDown(input))
+            {
+                lookedAt = true;
+            }
+        }
+
+        if (lookedAt)
+        {
+            door.GetComponent<DoorController>().isDoorEnabled = true;
+            GetComponent<MeshRenderer>().enabled = false;
         }
     }
 }

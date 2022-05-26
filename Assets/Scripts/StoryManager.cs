@@ -14,24 +14,27 @@ public class StoryManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (trigger[trigNum].activeSelf == false)
+        if (trigger != null)
         {
-            trigger[trigNum].SetActive(true);
-        }
-        if (trigger[trigNum].GetComponent<Trigger>().entered == true)
-        {
-            trigger[trigNum].SetActive(false);
-
-            //If the next trigger is the end of the array, stop incrementing
-            if (trigNum + 1 != trigger.Length)
+            if (trigger[trigNum].activeSelf == false)
             {
-                trigNum += 1;
+                trigger[trigNum].SetActive(true);
+            }
+            if (trigger[trigNum].GetComponent<Trigger>().entered == true)
+            {
+                trigger[trigNum].SetActive(false);
+
+                //If the next trigger is the end of the array, stop incrementing
+                if (trigNum + 1 != trigger.Length)
+                {
+                    trigNum += 1;
+                }
             }
         }
 
         if (animations[animationNum].trigger.entered == true && finished == false)
         {
-            if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false)
+            if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false && animations[animationNum].audio != null)
             {
                 if (GameObject.Find("GameManager").GetComponent<GameManager>().mrTuohyFriendlyMode == false)
                 {
@@ -41,7 +44,10 @@ public class StoryManager : MonoBehaviour
                 finished = true;
             }
 
-            animations[animationNum].objectToBeAnimated.SetBool("Activate", true);
+            if (animations[animationNum].objectToBeAnimated != null)
+            {
+                animations[animationNum].objectToBeAnimated.SetBool("Activate", true);
+            }
 
             if (animationNum +1 != animations.Length)
             {

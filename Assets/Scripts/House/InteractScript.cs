@@ -60,15 +60,16 @@ public class InteractScript : MonoBehaviour
                     GameObject.FindGameObjectWithTag("Player").transform.position = Vector3.Slerp(GameObject.FindGameObjectWithTag("Player").transform.position, interactables[currentInteractable].freezePosition, interactables[currentInteractable].freezeTransition);
                 }
             }
-            if (interactables[currentInteractable].material == true)
+            if (interactables[currentInteractable].changeSprite == true)
             {
-                interactables[currentInteractable].interactable.GetComponent<MeshRenderer>().material = interactables[currentInteractable].material;
+                interactables[currentInteractable].spriteToChange.GetComponent<SpriteRenderer>().sprite = interactables[currentInteractable].sprite;
+                interactables[currentInteractable].spriteToChange.SetActive(true);
                 if (interactables[currentInteractable].freezeState == false)
                 {
                     TaskCompleted();
                 }
             }
-            if (interactables[currentInteractable].animator == null && interactables[currentInteractable].portable == false && interactables[currentInteractable].freezeState == false && interactables[currentInteractable].material == false)
+            if (interactables[currentInteractable].animator == null && interactables[currentInteractable].portable == false && interactables[currentInteractable].freezeState == false && interactables[currentInteractable].changeSprite == false)
             {
                 TaskCompleted();
             }

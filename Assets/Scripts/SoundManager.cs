@@ -24,7 +24,7 @@ public class SoundManager : MonoBehaviour
     {
         float currentTime = 0;
         float start = audioSource.volume;
-        while (currentTime < 10)
+        while (currentTime < 1)
         {
             currentTime += Time.deltaTime;
             audioSource.volume = Mathf.Lerp(start, 1, currentTime / 10);

@@ -9,6 +9,6 @@ public class GoToScene : MonoBehaviour
     
     public void ChangeScene()
     {
-        SceneManager.LoadSceneAsync(sceneName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
