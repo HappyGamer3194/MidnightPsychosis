@@ -8,6 +8,8 @@ public class StoryAnimations
 {
     public string name;
     public Trigger trigger;
-    public Animator objectToBeAnimated;
+    public bool ifLookAt;
+    public GameObject objectToBeAnimated;
+    public GameObject objectMesh;
     public AudioSource audio;
 }

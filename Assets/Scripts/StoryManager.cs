@@ -31,27 +31,53 @@ public class StoryManager : MonoBehaviour
                 }
             }
         }
-
-        if (animations[animationNum].trigger.entered == true && finished == false)
+        if (animations[animationNum].ifLookAt == false)
         {
-            if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false && animations[animationNum].audio != null)
+            if (animations[animationNum].trigger.entered == true && finished == false)
             {
-                if (GameObject.Find("GameManager").GetComponent<GameManager>().mrTuohyFriendlyMode == false)
+                if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false && animations[animationNum].audio != null)
                 {
-                   animations[animationNum].audio.Play(0);
+                    if (GameManager.mrTuohyFriendlyMode == false)
+                    {
+                       animations[animationNum].audio.Play(0);
+                    }
+
+                    finished = true;
                 }
 
-                finished = true;
-            }
+                if (animations[animationNum].objectToBeAnimated != null)
+                {
+                    animations[animationNum].objectToBeAnimated.GetComponent<Animator>().SetBool("Activate", true);
+                }
 
-            if (animations[animationNum].objectToBeAnimated != null)
-            {
-                animations[animationNum].objectToBeAnimated.SetBool("Activate", true);
+                if (animationNum +1 != animations.Length)
+                {
+                    animationNum += 1;
+                }
             }
-
-            if (animationNum +1 != animations.Length)
+        } else
+        {
+            if (animations[animationNum].objectMesh.GetComponent<MeshRenderer>().isVisible && finished == false && animations[animationNum].trigger.entered == true)
             {
-                animationNum += 1;
+                if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false && animations[animationNum].audio != null)
+                {
+                    if (GameManager.mrTuohyFriendlyMode == false)
+                    {
+                        animations[animationNum].audio.Play(0);
+                    }
+
+                    finished = true;
+                }
+
+                if (animations[animationNum].objectToBeAnimated != null)
+                {
+                    animations[animationNum].objectToBeAnimated.GetComponent<Animator>().SetBool("Activate", true);
+                }
+
+                if (animationNum + 1 != animations.Length)
+                {
+                    animationNum += 1;
+                }
             }
         }
     }
