@@ -32,6 +32,7 @@ public class InteractScript : MonoBehaviour
                 if (interactables[currentInteractable].animator.GetCurrentAnimatorStateInfo(0).IsName("Finished") && finishedAnimation == false)
                 {
                     finishedAnimation = true;
+                    interactables[currentInteractable].interactable.SetActive(false);
                     TaskCompleted();
                 }
             }
