@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{36CF0F21-3FAE-2A21-96D4-C1A11743B5B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -53,40 +54,34 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Scripts\UI\Subtitles.cs" />
-    <Compile Include="Assets\Scripts\Trigger.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\Subtitles.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Trigger.cs" />
     <Compile Include="Assets\Scripts\House\InteractScript.cs" />
     <Compile Include="Assets\Scripts\Player\AmbienceTrigger.cs" />
     <Compile Include="Assets\Scripts\Player\LookAt.cs" />
     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\StoryManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryManager.cs" />
     <Compile Include="Assets\Scripts\House\DoorController.cs" />
-    <Compile Include="Assets\Scripts\UI\DevPanel.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\DevPanel.cs" />
     <Compile Include="Assets\Scripts\House\VentCover.cs" />
-    <Compile Include="Assets\Scripts\UI\InsanityScript.cs" />
-    <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\House\InteractablesClass.cs" />
-    <Compile Include="Assets\Scripts\UI\Clock.cs" />
-    <Compile Include="Assets\Scripts\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\UI\GoToScene.cs" />
-    <Compile Include="Assets\Scripts\UI\PopupIndexClass.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\Clock.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Functions\GoToScene.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\cameraWobble.cs" />
     <Compile Include="Assets\Scripts\House\Flickering.cs" />
-    <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\URP Stuff\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\UI\Notifications.cs" />
-    <Compile Include="Assets\Scripts\UI\SubtitleLines.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\Notifications.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\SubtitleLines.cs" />
     <Compile Include="Assets\Scripts\Player\PostProcessingManager.cs" />
-    <Compile Include="Assets\Scripts\UI\QuitGame.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Functions\QuitGame.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Player\AmbientSoundManager.cs" />
-    <Compile Include="Assets\Scripts\UI\StatController.cs" />
-    <Compile Include="Assets\Scripts\StoryAnimations.cs" />
-    <Compile Include="Assets\Scripts\UI\InteractTextController.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryAnimations.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\InteractTextController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
