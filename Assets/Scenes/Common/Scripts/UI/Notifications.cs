@@ -42,7 +42,7 @@ public class Notifications : MonoBehaviour
             if (day1[notiNum - 1] != "" && notiNum != 0)
             {
                 NotiCompleted.Play();
-                noti.GetComponent<Text>().color = Color.green;
+                noti.GetComponent<Text>().color = new Color32(94, 255, 122, 255);
                 if (day1[notiNum] != "")
                 {
                     yield return new WaitForSeconds(3);
