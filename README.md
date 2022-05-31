@@ -5,5 +5,5 @@
 ### Folders to Delete After Uploading
 - Library
 - Logs
-- obj
+- obj/Debug
 - MidnightPsychosis.sln
