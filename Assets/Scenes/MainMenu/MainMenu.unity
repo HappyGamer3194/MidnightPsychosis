@@ -933,7 +933,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 0.95
+    m_LineSpacing: 0.9
   m_Text: "<size=18><color=#A00000>Game Design:\r</color></size>\nAryan Puthran\nAeden
     Brookshire\r\nEric Tao\n\r\n<size=18><color=#A00000>Level Design:\r</color></size>\nAryan
     Puthran\n\r\n<size=18><color=#A00000>Programming:</color>\r</size>\nAryan Puthran\nAeden
@@ -4723,7 +4723,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 0.039215688}
+      maxColor: {r: 1, g: 1, b: 1, a: 0.078431375}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9248,7 +9248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948199531}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 62.22287, y: -182.5, z: -799.4115}
+  m_LocalPosition: {x: 62.22287, y: -183.11, z: -799.4115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1652131591}
@@ -11970,7 +11970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 479.91238
+      value: 483.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11978,23 +11978,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.415504
+      value: 44.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.18532689
+      value: 0.18411584
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.112009004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9826769
+      value: 0.97627306
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.021123838
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12006,7 +12006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -13.09
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: 1893916858bcac14a9ffb66bdf7dbdaf, type: 3}
       propertyPath: m_DynamicOccludee
