@@ -17091,15 +17091,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitles:
-  - line: I should get something to eat from the pantry...
+  - line: I'm a little hungry, I should find a snack...
     trigger: {fileID: 801362279}
     sound: {fileID: 0}
     pauseSound: 0
-  - line: I need to find another way around...
+  - line: I should find another way in...
     trigger: {fileID: 911674505}
     sound: {fileID: 0}
     pauseSound: 0
-  - line: That vent might work. (press SHIFT to crouch)
+  - line: That vent might work. (SHIFT to crouch)
     trigger: {fileID: 1643619821}
     sound: {fileID: 0}
     pauseSound: 0
@@ -42251,7 +42251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[1]
-      value: Hydration levels low...
+      value: Remember to drink water.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[2]
@@ -42259,15 +42259,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[3]
-      value: Time to go to bed
+      value: Time to go to bed.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[4]
-      value: Time to go to bed
+      value: Time to go to bed.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[5]
-      value: Time to go to bed
+      value: Time to go to bed.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[6]

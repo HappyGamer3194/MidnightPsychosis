@@ -16174,7 +16174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitles:
-  - line: I think I left the remote on the coffee table
+  - line: I think I left the remote on the coffee table...
     trigger: {fileID: 801362279}
     sound: {fileID: 0}
     pauseSound: 0
@@ -40541,11 +40541,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[0]
-      value: Heart Rate Increasing
+      value: Heart rate elevated, calm down...
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[1]
-      value: Time for bed
+      value: Time for bed.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[2]
