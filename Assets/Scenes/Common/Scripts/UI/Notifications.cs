@@ -15,7 +15,7 @@ public class Notifications : MonoBehaviour
     public string[] day1;
     public int notiNum = -1;
     private int notiNumTemp = -1;
-    public bool wait = false;
+    private bool wait = false;
 
     public void Ping()
     {

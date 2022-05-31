@@ -39,9 +39,14 @@ public class StoryManager : MonoBehaviour
                 {
                     if (GameManager.mrTuohyFriendlyMode == false)
                     {
-                       animations[animationNum].audio.Play(0);
+                        if (animations[animationNum].pauseAudio == false)
+                        {
+                            animations[animationNum].audio.Play(0);
+                        } else
+                        {
+                            animations[animationNum].audio.Pause();
+                        }
                     }
-
                     finished = true;
                 }
 
