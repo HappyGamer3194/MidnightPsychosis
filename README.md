@@ -3,6 +3,7 @@
 - https://minhaskamal.github.io/DownGit/#/home 
 
 ### Folders to Delete After Uploading
+- .vs
 - Library
 - Logs
 - obj/Debug
