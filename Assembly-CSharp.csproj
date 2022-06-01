@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36CF0F21-3FAE-2A21-96D4-C1A11743B5B6}</ProjectGuid>
+    <ProjectGuid>{C2482FBD-528D-4120-4DDD-B99E0029E0B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,30 +58,32 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\Common\Scripts\UI\Subtitles.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Trigger.cs" />
-    <Compile Include="Assets\Scripts\House\InteractScript.cs" />
-    <Compile Include="Assets\Scripts\Player\AmbienceTrigger.cs" />
-    <Compile Include="Assets\Scripts\Player\LookAt.cs" />
-    <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\House\InteractScript.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\AmbienceTrigger.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\House\LookAt.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Player\MouseLook.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryManager.cs" />
-    <Compile Include="Assets\Scripts\House\DoorController.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\House\DoorController.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\DevPanel.cs" />
-    <Compile Include="Assets\Scripts\House\VentCover.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\House\VentCover.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\House\InteractablesClass.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\House\InteractablesClass.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\Clock.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerLookAt.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Functions\GoToScene.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Player\cameraWobble.cs" />
-    <Compile Include="Assets\Scripts\House\Flickering.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Player\cameraWobble.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\House\Flickering.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\URP Stuff\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\Notifications.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\SubtitleLines.cs" />
-    <Compile Include="Assets\Scripts\Player\PostProcessingManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\PostProcessingManager.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Functions\QuitGame.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Player\AmbientSoundManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\Managers\AmbientSoundManager.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryAnimations.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\InteractTextController.cs" />
   </ItemGroup>
@@ -93,7 +95,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\UI\DevTex\readme.txt" />
+    <None Include="Assets\Scenes\Common\Materials\DevTex\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
