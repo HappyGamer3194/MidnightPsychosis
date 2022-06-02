@@ -15,6 +15,8 @@ public class InteractScript : MonoBehaviour
     public float timeSinceInteracted = 0;
     public int minusOne;
     public GameObject watchNotifications;
+    public GameObject LoadingScreen;
+    public string nextSceneName;
 
     // Update is called once per frame
     void Update()
@@ -100,7 +102,7 @@ public class InteractScript : MonoBehaviour
                 allTasksCompleted = true;
             } else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                LoadingScreen.GetComponent<LoadingScreenManager>().LoadLevel(nextSceneName);
             }
         }
     }

@@ -16,6 +16,7 @@ public class StoryManager : MonoBehaviour
     {
         if (animations[animationNum].ifLookAt == false)
         {
+            finished = false;
             if (animations[animationNum].trigger.entered == true && finished == false)
             {
                 if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false && animations[animationNum].audio != null)
@@ -24,6 +25,7 @@ public class StoryManager : MonoBehaviour
                     {
                         if (animations[animationNum].pauseAudio == false)
                         {
+                            Debug.Log("play play play");
                             animations[animationNum].audio.Play(0);
                         }
                     }
@@ -37,6 +39,7 @@ public class StoryManager : MonoBehaviour
 
                 if (animations[animationNum].objectToBeAnimated != null)
                 {
+                    Debug.Log("playing Animation");
                     animations[animationNum].objectToBeAnimated.GetComponent<Animator>().SetBool("Activate", true);
                 } else
                 {
@@ -54,6 +57,7 @@ public class StoryManager : MonoBehaviour
             }
         } else
         {
+            finished = false;
             if (animations[animationNum].objectMesh.GetComponent<MeshRenderer>().isVisible && finished == false && animations[animationNum].trigger.entered == true)
             {
                 if (animations[animationNum].audio != null && animations[animationNum].audio != null)
@@ -79,6 +83,7 @@ public class StoryManager : MonoBehaviour
                 {
                     animationNum += 1;
                 }
+                finished = true;
             }
         }
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1887076498}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1581,7 +1581,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ddc1c31af45cd554d8ab8f6b532dc0dc, type: 3}
+    m_Font: {fileID: 12800000, guid: 00aa50cb0fe08354999cc80a7181af1f, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -2967,7 +2967,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ddc1c31af45cd554d8ab8f6b532dc0dc, type: 3}
+    m_Font: {fileID: 12800000, guid: 00aa50cb0fe08354999cc80a7181af1f, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -10291,7 +10291,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ddc1c31af45cd554d8ab8f6b532dc0dc, type: 3}
+    m_Font: {fileID: 12800000, guid: 00aa50cb0fe08354999cc80a7181af1f, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -10916,7 +10916,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ddc1c31af45cd554d8ab8f6b532dc0dc, type: 3}
+    m_Font: {fileID: 12800000, guid: 00aa50cb0fe08354999cc80a7181af1f, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -14853,6 +14853,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836966825}
     m_Modifications:
+    - target: {fileID: 2849855846954053727, guid: 0dec8a0783eba6a488b4d07c620ec6f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849855847576863277, guid: 0dec8a0783eba6a488b4d07c620ec6f2, type: 3}
+      propertyPath: loadingMessages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849855847576863277, guid: 0dec8a0783eba6a488b4d07c620ec6f2, type: 3}
+      propertyPath: loadingMessages.Array.data[0]
+      value: Composing spooky music
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849855847576863277, guid: 0dec8a0783eba6a488b4d07c620ec6f2, type: 3}
+      propertyPath: loadingMessages.Array.data[1]
+      value: Stomping around a bit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849855847576863277, guid: 0dec8a0783eba6a488b4d07c620ec6f2, type: 3}
+      propertyPath: loadingMessages.Array.data[2]
+      value: Kidnapping children
+      objectReference: {fileID: 0}
     - target: {fileID: 2849855847576863280, guid: 0dec8a0783eba6a488b4d07c620ec6f2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
