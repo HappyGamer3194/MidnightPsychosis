@@ -365,6 +365,7 @@
 "Assets/Scenes/Common/Scripts/UI/SettingsMenu.cs"
 "Assets/Scenes/Common/Scripts/UI/SubtitleLines.cs"
 "Assets/Scenes/Common/Scripts/UI/Subtitles.cs"
+"Assets/Scenes/Levels/Day 1/Hour2/Scripts/Appear.cs"
 "Assets/URP Stuff/TutorialInfo/Scripts/Readme.cs"
 -langversion:8.0
 

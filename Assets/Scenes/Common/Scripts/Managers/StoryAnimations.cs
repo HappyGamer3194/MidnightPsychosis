@@ -12,5 +12,5 @@ public class StoryAnimations
     public GameObject objectToBeAnimated;
     public GameObject objectMesh;
     public AudioSource audio;
-    public AudioSource pauseAudio;
+    public bool pauseAudio;
 }

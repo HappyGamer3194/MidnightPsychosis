@@ -13,6 +13,7 @@ public class InteractScript : MonoBehaviour
     public bool allTasksCompleted;
     public bool resetPosition;
     public float timeSinceInteracted = 0;
+    public int minusOne;
     public GameObject watchNotifications;
 
     // Update is called once per frame
@@ -77,8 +78,8 @@ public class InteractScript : MonoBehaviour
         }
         if (resetPosition == true)
         {
-            interactables[currentInteractable -1].interactable.transform.parent = null;
-            interactables[currentInteractable -1].interactable.transform.position = Vector3.Slerp(interactables[currentInteractable -1].interactable.transform.position, interactables[currentInteractable -1].endingLocation, interactables[currentInteractable -1].pickupTime);
+            interactables[currentInteractable +minusOne].interactable.transform.parent = null;
+            interactables[currentInteractable +minusOne].interactable.transform.position = Vector3.Slerp(interactables[currentInteractable +minusOne].interactable.transform.position, interactables[currentInteractable +minusOne].endingLocation, interactables[currentInteractable +minusOne].pickupTime);
         }
     }
 

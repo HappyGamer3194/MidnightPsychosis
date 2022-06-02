@@ -22,7 +22,6 @@ public class StoryManager : MonoBehaviour
             }
             if (trigger[trigNum].GetComponent<Trigger>().entered == true)
             {
-                trigger[trigNum].SetActive(false);
 
                 //If the next trigger is the end of the array, stop incrementing
                 if (trigNum + 1 != trigger.Length)
@@ -44,6 +43,7 @@ public class StoryManager : MonoBehaviour
                             animations[animationNum].audio.Play(0);
                         } else
                         {
+                            Debug.Log("audio paused");
                             animations[animationNum].audio.Pause();
                         }
                     }
@@ -64,11 +64,17 @@ public class StoryManager : MonoBehaviour
         {
             if (animations[animationNum].objectMesh.GetComponent<MeshRenderer>().isVisible && finished == false && animations[animationNum].trigger.entered == true)
             {
-                if (animations[animationNum].audio != null && animations[animationNum].audio.isPlaying == false && animations[animationNum].audio != null)
+                if (animations[animationNum].audio != null && animations[animationNum].audio != null)
                 {
                     if (GameManager.mrTuohyFriendlyMode == false)
                     {
-                        animations[animationNum].audio.Play(0);
+                        if (animations[animationNum].pauseAudio == false)
+                        {
+                            animations[animationNum].audio.Play(0);
+                        } else
+                        {
+                            animations[animationNum].audio.Pause();
+                        }
                     }
 
                     finished = true;
