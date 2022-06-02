@@ -25712,7 +25712,6 @@ GameObject:
   - component: {fileID: 1482834760}
   - component: {fileID: 1482834759}
   - component: {fileID: 1482834758}
-  - component: {fileID: 1482834764}
   m_Layer: 5
   m_Name: mainMenuButton
   m_TagString: Untagged
@@ -25928,16 +25927,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1482834764}
-        m_TargetAssemblyTypeName: GoToScene, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: LoadingScreenManager, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1482834762
@@ -25978,19 +25977,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482834756}
   m_CullTransparentMesh: 1
---- !u!114 &1482834764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482834756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2503f6a2536f0342b11c6b52c10931a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: MainMenu
 --- !u!1001 &1495435548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33797,15 +33783,15 @@ RectTransform:
   m_GameObject: {fileID: 1967924723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.40389135, y: 0.91031533, z: 0.7097524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 872424911}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 150, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1967924725
 MonoBehaviour:
@@ -33829,7 +33815,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: b1f57adc43f68fe419ad5c0e8a888bc6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -38083,6 +38069,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 03f45280ddbc7404d8fcf9853e989ac3, type: 3}
+    - target: {fileID: 322255076869510617, guid: 69b37e34d345b74419819d8365e31499, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 322255076869510618, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: startHour
       value: 7
@@ -39118,6 +39108,10 @@ PrefabInstance:
     - target: {fileID: 8443433133365499682, guid: 1546e257a63253d4fa277715c66f255a, type: 3}
       propertyPath: m_Name
       value: Post-process Volume
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443433133365499682, guid: 1546e257a63253d4fa277715c66f255a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8443433133365499685, guid: 1546e257a63253d4fa277715c66f255a, type: 3}
       propertyPath: isGlobal

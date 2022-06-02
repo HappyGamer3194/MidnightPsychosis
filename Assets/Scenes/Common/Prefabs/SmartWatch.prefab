@@ -187,7 +187,6 @@ MonoBehaviour:
   - Time to go to bed.
   - 
   notiNum: -1
-  wait: 0
 --- !u!82 &3103784071465573219
 AudioSource:
   m_ObjectHideFlags: 0
@@ -422,7 +421,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322255076869510614}
-  m_LocalRotation: {x: 0, y: 0, z: 0.01090805, w: 0.9999405}
+  m_LocalRotation: {x: 0, y: 0, z: 0.008726558, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.06932831, y: 0.06932831, z: 1}
   m_Children: []
