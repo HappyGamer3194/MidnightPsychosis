@@ -30,7 +30,7 @@ public class cameraWobble : MonoBehaviour
 
         if (player.GetComponent<PlayerController>().isMoving == true && sound.isPlaying == false)
         {
-            sound.volume = Random.Range(0.8f, 1);
+            sound.volume = Random.Range(0.6f, 0.8f);
             sound.pitch = Random.Range(0.8f, 1.1f);
             sound.Play();
         }

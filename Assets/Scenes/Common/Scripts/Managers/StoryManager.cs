@@ -14,22 +14,6 @@ public class StoryManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (trigger != null)
-        {
-            if (trigger[trigNum].activeSelf == false)
-            {
-                trigger[trigNum].SetActive(true);
-            }
-            if (trigger[trigNum].GetComponent<Trigger>().entered == true)
-            {
-
-                //If the next trigger is the end of the array, stop incrementing
-                if (trigNum + 1 != trigger.Length)
-                {
-                    trigNum += 1;
-                }
-            }
-        }
         if (animations[animationNum].ifLookAt == false)
         {
             if (animations[animationNum].trigger.entered == true && finished == false)
@@ -41,11 +25,12 @@ public class StoryManager : MonoBehaviour
                         if (animations[animationNum].pauseAudio == false)
                         {
                             animations[animationNum].audio.Play(0);
-                        } else
-                        {
-                            Debug.Log("audio paused");
-                            animations[animationNum].audio.Pause();
                         }
+                    }
+                    if (animations[animationNum].pauseAudio == true)
+                    {
+                        Debug.Log("audio paused");
+                        animations[animationNum].audio.Pause();
                     }
                     finished = true;
                 }
@@ -53,6 +38,13 @@ public class StoryManager : MonoBehaviour
                 if (animations[animationNum].objectToBeAnimated != null)
                 {
                     animations[animationNum].objectToBeAnimated.GetComponent<Animator>().SetBool("Activate", true);
+                } else
+                {
+                    if (animationNum + 1 != animations.Length)
+                    {
+                        Debug.Log("no animation, skipping...");
+                        animationNum += 1;
+                    }
                 }
 
                 if (animationNum +1 != animations.Length)
@@ -76,8 +68,6 @@ public class StoryManager : MonoBehaviour
                             animations[animationNum].audio.Pause();
                         }
                     }
-
-                    finished = true;
                 }
 
                 if (animations[animationNum].objectToBeAnimated != null)
