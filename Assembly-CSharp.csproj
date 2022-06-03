@@ -83,9 +83,12 @@
     <Compile Include="Assets\Scenes\Common\Scripts\Functions\QuitGame.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\AmbientSoundManager.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\EnabledOnPlay.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryAnimations.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\InteractTextController.cs" />
-    <Compile Include="Assets\Scenes\Common\Scripts\EnabledOnPlay.cs" />
+    <Compile Include="Assets\Scenes\Levels\Day2\Levels\Hour3\Scripts\Finale.cs" />
+    <Compile Include="Assets\Scenes\Levels\Day2\Levels\Hour3\Scripts\AppearOnInteract.cs" />
+    <Compile Include="Assets\Scenes\Levels\ThanksForPlaying\Scripts\ReturnToMainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />

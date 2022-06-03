@@ -57,7 +57,6 @@ public class StoryManager : MonoBehaviour
             }
         } else
         {
-            finished = false;
             if (animations[animationNum].objectMesh.GetComponent<MeshRenderer>().isVisible && finished == false && animations[animationNum].trigger.entered == true)
             {
                 if (animations[animationNum].audio != null && animations[animationNum].audio != null)
@@ -67,6 +66,7 @@ public class StoryManager : MonoBehaviour
                         if (animations[animationNum].pauseAudio == false)
                         {
                             animations[animationNum].audio.Play(0);
+                            finished = true;
                         } else
                         {
                             animations[animationNum].audio.Pause();
