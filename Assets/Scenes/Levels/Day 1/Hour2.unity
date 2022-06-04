@@ -14202,11 +14202,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitles:
-  - line: I think I left Mr. Gibs in the office by the pantry.
+  - line: I lost Mr.Gibs... I think I left him near the pantry.
     trigger: {fileID: 801362279}
     sound: {fileID: 0}
     pauseSound: 0
-  - line: There you are, it's bedtime for you Mr. Gibs.
+  - line: There you are, it's bedtime for you, Mr. Gibs.
     trigger: {fileID: 1692595158}
     sound: {fileID: 0}
     pauseSound: 0
@@ -37639,7 +37639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[0]
@@ -37647,11 +37647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[1]
-      value: Time for bed.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[2]
-      value: 
+      value: Time for bed.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[3]

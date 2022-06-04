@@ -11908,7 +11908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 771067630987270513, guid: db19615051e9c2548ad336ba330eb4a4, type: 3}
       propertyPath: m_Text
-      value: 10:30 AM
+      value: 8:30 AM
       objectReference: {fileID: 0}
     - target: {fileID: 972994361772717054, guid: db19615051e9c2548ad336ba330eb4a4, type: 3}
       propertyPath: m_Pivot.x
@@ -13822,11 +13822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitles:
-  - line: I think I left the remote on the coffee table
-    trigger: {fileID: 801362279}
-    sound: {fileID: 0}
-    pauseSound: 0
-  - line: I think I left the remote on the coffee table
+  - line: I think I left the remote on the coffee table...
     trigger: {fileID: 801362279}
     sound: {fileID: 0}
     pauseSound: 0
@@ -15907,6 +15903,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8f0b19b9dc8b57a41947f7a57c47d885, type: 3}
       propertyPath: m_Name
       value: ToyRabbit
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8f0b19b9dc8b57a41947f7a57c47d885, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f0b19b9dc8b57a41947f7a57c47d885, type: 3}
@@ -26450,10 +26450,6 @@ PrefabInstance:
       value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 2340680951666765294, guid: 6083bf92584df094096478dc5888933f, type: 3}
-      propertyPath: walkingSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2340680951666765294, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: postProcessing
       value: 
       objectReference: {fileID: 1819601865}
@@ -28150,7 +28146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1692595156
 Transform:
   m_ObjectHideFlags: 0
@@ -36157,7 +36153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[0]
@@ -36165,11 +36161,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[1]
-      value: Time for bed.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[2]
-      value: 
+      value: Time for bed.
       objectReference: {fileID: 0}
     - target: {fileID: 322255076720002307, guid: 69b37e34d345b74419819d8365e31499, type: 3}
       propertyPath: day1.Array.data[3]
