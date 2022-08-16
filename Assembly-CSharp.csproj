@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,12 +53,9 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Scenes\Common\Scripts\UI\Subtitles.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Trigger.cs" />
-    <Compile Include="Assets\Scenes\Levels\Day2\Levels\Hour3\Scripts\AppearOnInteract.cs" />
+    <Compile Include="Assets\Scenes\Levels\Day2\Hour3\Scripts\AppearOnInteract.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\House\InteractScript.cs" />
     <Compile Include="Assets\Scenes\Levels\ThanksForPlaying\Scripts\ReturnToMainMenu.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\AmbienceTrigger.cs" />
@@ -78,7 +75,7 @@
     <Compile Include="Assets\Scenes\Common\Scripts\Functions\GoToScene.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Player\cameraWobble.cs" />
-    <Compile Include="Assets\Scenes\Levels\Day2\Levels\Hour3\Scripts\Finale.cs" />
+    <Compile Include="Assets\Scenes\Levels\Day2\Hour3\Scripts\Finale.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\House\Flickering.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\URP Stuff\TutorialInfo\Scripts\Readme.cs" />
@@ -92,6 +89,7 @@
     <Compile Include="Assets\Scenes\Common\Scripts\EnabledOnPlay.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryAnimations.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\InteractTextController.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\RandomText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />

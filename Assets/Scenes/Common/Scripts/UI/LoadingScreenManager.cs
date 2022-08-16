@@ -19,6 +19,8 @@ public class LoadingScreenManager : MonoBehaviour
     {
         loadingPanel.SetActive(true);
 
+        yield return new WaitForSeconds(2);
+
         AsyncOperation op = SceneManager.LoadSceneAsync(levelName);
 
         while (!op.isDone)
