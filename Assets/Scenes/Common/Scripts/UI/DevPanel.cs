@@ -22,7 +22,8 @@ public class DevPanel : MonoBehaviour
 
     public void Update()
     {
-        StartCoroutine(TogglePanel());
+        //DISABLED THE DEV PANEL BECAUSE IT ISN'T REQUIRED.
+        //StartCoroutine(TogglePanel());
     }
 
     public IEnumerator TogglePanel()

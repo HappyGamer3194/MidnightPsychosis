@@ -27962,6 +27962,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2340680953041097483, guid: 6083bf92584df094096478dc5888933f, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 5712193655999638374}
     - target: {fileID: 2340680953214236608, guid: 6083bf92584df094096478dc5888933f, type: 3}
       propertyPath: sound
       value: 

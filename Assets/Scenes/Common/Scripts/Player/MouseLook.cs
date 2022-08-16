@@ -6,6 +6,7 @@ public class MouseLook : MonoBehaviour
 {
     public float mouseSensitivity;
     float xRotation = 0f;
+    public GameObject pauseMenu;
 
     float sneakOffset;
 
@@ -27,8 +28,11 @@ public class MouseLook : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        player.transform.Rotate(Vector3.up * mouseX);
+        if(pauseMenu.activeSelf == false)
+		{
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            player.transform.Rotate(Vector3.up * mouseX);
+        }
 
         //transform.position = new Vector3(player.transform.position.x + offset.x, player.transform.position.y + offset.y + sneakOffset, player.transform.position.z + offset.z);
 
