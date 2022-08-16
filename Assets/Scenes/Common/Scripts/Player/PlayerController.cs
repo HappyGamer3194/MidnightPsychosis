@@ -102,14 +102,14 @@ public class PlayerController : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
         controller.Move(velocity * Time.deltaTime);
 
-        //Sneaking Input
-        if (Input.GetButton("Sneak"))
-        {
-            sneaking = true;
-        } else
-        {
-            sneaking = false;
-        }
+        //Sneaking Input - REMOVED SNEAK FOR NOW
+        //if (Input.GetButton("Sneak"))
+        //{
+        //    sneaking = true;
+        //} else
+        //{
+        //    sneaking = false;
+        //}
 
         //Checks if sneaking
         checkSneak();

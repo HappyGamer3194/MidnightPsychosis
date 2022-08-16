@@ -368,6 +368,7 @@
 "Assets/Scenes/Common/Scripts/UI/SettingsMenu.cs"
 "Assets/Scenes/Common/Scripts/UI/SubtitleLines.cs"
 "Assets/Scenes/Common/Scripts/UI/Subtitles.cs"
+"Assets/Scenes/Common/Scripts/UnlockTheMouse.cs"
 "Assets/Scenes/Levels/Day 1/Hour2/Scripts/Appear.cs"
 "Assets/Scenes/Levels/Day2/Hour3/Scripts/AppearOnInteract.cs"
 "Assets/Scenes/Levels/Day2/Hour3/Scripts/Finale.cs"

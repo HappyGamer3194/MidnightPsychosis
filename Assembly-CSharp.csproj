@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerLookAt.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Functions\GoToScene.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UI\RandomText.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Player\cameraWobble.cs" />
     <Compile Include="Assets\Scenes\Levels\Day2\Hour3\Scripts\Finale.cs" />
@@ -89,7 +90,7 @@
     <Compile Include="Assets\Scenes\Common\Scripts\EnabledOnPlay.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\Managers\StoryAnimations.cs" />
     <Compile Include="Assets\Scenes\Common\Scripts\UI\InteractTextController.cs" />
-    <Compile Include="Assets\Scenes\Common\Scripts\UI\RandomText.cs" />
+    <Compile Include="Assets\Scenes\Common\Scripts\UnlockTheMouse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
